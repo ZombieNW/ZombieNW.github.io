@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="img/logo.png">
+  <title>ZombieNW</title>
+</head>
+<body>
+  <div class="header" id="myHeader">
+    <a href="" class="logo"><img src="img/logo.png" class="header-logo">ZombieNW</a>
+    <div class="header-right">
+      <a href="../../../index.html">Home</a>
+      <a href="../../../pages/animation/index.html">Animation</a>
+      <a class="active" >Development</a>
+    </div>
+  </div>  
+  
+  <div class="content">
+    <img style="float:right;" src="../img/logo.png" width="300px" height="100%">
+    <div class="info">
+      <h1>ZNW Bot <br></h1>
+      <h2>Language/Framework: Javascript/Discord.js <br> <br></h2>
+      <h2>Add To Server: <a href="https://bit.ly/ZNWBOT">Click Here</a><br><br></h2>
+      <h2>Description:</h2>
+      <p><span style="font-size: 30px;">Commands (As Of Latest Release):</span></p>
+      <p><span style="font-size: 24px;"><br></span></p>
+      <p><span style="font-size: 24px;">Utility And Moderation:</span></p>
+      <p><br></p>
+      <p>Ping: Shows ping latency. Usage: -ping</p>
+      <p><br></p>
+      <p>Purge: Deletes args ammount of commands. Usage: -purge &lt;number&gt;</p>
+      <p><br></p>
+      <p>Prefix: Changes bot prefix. Usage: -prefix &lt;prefix&gt;</p>
+      <p><br></p>
+      <p>PFP: Grabs given users profile picture. Usage: -pfp &lt;@member&gt;</p>
+      <p><br></p>
+      <p>Poll: Generates voting poll. Usage: -poll &lt;message&gt;</p>
+      <p><br></p>
+      <p>Kick: Kicks given member. Usage: -kick &lt;@member&gt;</p>
+      <p><br></p>
+      <p>Ban: Bans given member. Usage: -ban &lt;@member&gt;</p>
+      <p><br></p>
+      <p>Unban: Unbans given member. Usage: -unban &lt;@member&gt;</p>
+      <p><br></p>
+      <p>Help: Displays and explains commands. Usage: -help</p>
+      <p><br></p>
+      <p><span style="font-size: 24px;">Anime Reactions:</span></p>
+      <p><br></p>
+      <p>Hug: Hugs given user. Usage: -hug &lt;@member&gt;</p>
+      <p><br></p>
+      <p>Kiss: Kisses given user. Usage: -kiss &lt;@member&gt;</p>
+      <p><br></p>
+      <p>Poke: Pokes given user. Usage: -poke &lt;@member&gt;</p>
+      <p><br></p>
+      <p>Pat: Pats given user. Usage: -pat &lt;@member&gt;</p>
+      <p><br></p>
+      <p>Slap: Slaps given user. Usage: -slap &lt;@member&gt;</p>
+      <p><br></p>
+      <p><span style="font-size: 24px;">Fun:</span></p>
+      <p><br></p>
+      <p>Meme: Sends a meme from reddit. Usage: -meme</p>
+      <p><br></p>
+      <p>Reddit: Gets random post from given subreddit. Usage: -reddit</p>
+      <p><br></p>
+      <p>Pixabay: Gets free image using pixabay.com&#39;s api. Usage: -pixabay &lt;query&gt;</p>
+      <p><br></p>
+      <p>Joke: Responds with joke. Usage: -joke</p>
+      <p><br></p>
+      <p>Urban: Checks Urban Dictionary for definitions. Usage: -urban &lt;query&gt;</p>
+      <p><br></p>
+      <p>Dog: Returns image of dog. Usage: -dog</p>
+      <p><br></p>
+      <p>Cat: Returns image of cat. Usage: -cat</p>
+      <p><br></p>
+    </div>
+    
+  </div>
+  
+  <script>
+  window.onscroll = function() {myFunction()};
+  
+  var header = document.getElementById("myHeader");
+  var sticky = header.offsetTop;
+  
+  function myFunction() {
+    if (window.pageYOffset > sticky) {
+      header.classList.add("sticky");
+    } else {
+      header.classList.remove("sticky");
+    }
+  }
+  </script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="img/logo.png">
+  <title>ZombieNW</title>
+</head>
+<body>
+  <div class="header" id="myHeader">
+    <a href="" class="logo"><img src="img/logo.png" class="header-logo">ZombieNW</a>
+    <div class="header-right">
+      <a href="../../../index.html">Home</a>
+      <a class="active" href="../index.html">Animation</a>
+      <a href="../../../pages/dev/index.html">Development</a>
+    </div>
+  </div>  
+  
+  <div class="content">
+    <img style="float:right;" src="img/poster.png" width="300px" height="100%">
+    <div class="info">
+      <h1>The ZNW Show <br></h1>
+      <h2>Running: 2020- <br> <br></h2>
+      <h2>Watch: <a href="https://www.youtube.com/channel/UCUcsNSlibCUVYKtCa6uHFMg">Click Here</a><br><br></h2>
+      <h2>Description:<br> The ZNW Show is a sketch comedy show currently in production by me, ZombieNW. It includes a short monolouge by me leading into a few comedy scenes each lasting a short period, usually not longer than 30 seconds.</h2>
+    </div>
+    
+  </div>
+  
+  <script>
+  window.onscroll = function() {myFunction()};
+  
+  var header = document.getElementById("myHeader");
+  var sticky = header.offsetTop;
+  
+  function myFunction() {
+    if (window.pageYOffset > sticky) {
+      header.classList.add("sticky");
+    } else {
+      header.classList.remove("sticky");
+    }
+  }
+  </script>
+</body>
+</html>
