@@ -60,7 +60,7 @@ body {
   }
   
   .header a.active {
-    background-color: darkslateblue;
+    background-color: #00aacc;
     color: black;
   }
   
