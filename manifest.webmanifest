@@ -14,9 +14,9 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": "/apple/index.html",
+  "start_url": "/test.html",
   "background_color": "#3367D6",
   "display": "standalone",
-  "scope": "/apple/index.html",
+  "scope": "/test.html",
   "theme_color": "#3367D6"
 }
