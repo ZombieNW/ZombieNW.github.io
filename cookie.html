@@ -31,8 +31,10 @@
 				<img src="https://cdn.pixabay.com/photo/2014/04/02/10/52/chocolate-chip-				cookies-304801__340.png" width="10%"></img>
 			</a> 
 			<br>
-			<button onclick="buyClickOne()">Buy Auto Clicker (50 Clicks)</button>
-			<button onclick="buyClickTwo()">Buy Grandma (100 Clicks)</button>
+			<button onclick="buyClickOne()">Buy Auto Clicker (50 cookies per grandma)</button>
+			<button onclick="buyClickTwo()">Buy Grandma (100 cookies per grandma)</button>
+			<button onclick="autoBuyClickOne()">Auto Buy Auto Clickers (50 cookies per clicker)</button>
+			<button onclick="autoBuyClickTwo()">Auto Buy Grandma's (100 cookies per grandma)</button>
 			<p id="cookies">0</p>
       		<p> Cookies</p>
       		<br>
@@ -73,6 +75,17 @@
                  document.getElementById("grandmas").innerHTML = grammas;
               }
             }
+	
+	function autoBuyClickOne() {
+		while (clicks > 49) {
+			buyClickOne();
+		}
+	}		
+	function autoBuyClickTwo() {
+		while (clicks > 99) {
+			buyClickTwo();
+		}
+	}
 		</script>
 	</body>
 </html>
