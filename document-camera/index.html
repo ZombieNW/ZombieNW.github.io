@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+	<meta charset="utf-8">
+	<title>Mrs. Krumpos's Document Camera</title>
+	<link rel="stylesheet" href="mainstyles.css" type="text/css">
+	<style type="text/css" media="screen">
+	body {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+	#stage {
+		background: #1f1f1f;
+		width: 100%;
+		height: 100vh;
+		overflow: hidden;
+		position: absolute;
+		top: 0px;
+	}
+	
+	#stage span {
+		font-size: 20px;
+		color: #666;
+		display: block;
+	}
+	
+	video {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+	
+	#controls {
+		position: absolute;
+		right: 0px;
+		bottom: 0px;
+		width: 100px;
+		width: 400px;
+	}
+	
+	#change {
+		position: absolute;
+		right: 0px;
+		bottom: 0px;
+		width: 100px;
+	}
+	
+	button {
+		font-size: 150%;
+		text-align: center;
+		display: block;
+	}
+	
+	#change button {
+		width: 60px;
+		border: none;
+		background: #fff;
+	}
+	</style>
+	<link rel="icon" href="icon.jpeg">
+	<script>
+  	navigator.mediaDevices.getUserMedia({
+  		video: true,
+  		audio: true
+  	}).then(stream => video.srcObject = stream).catch(e => log(e.name + ": " + e.message));
+  	var log = msg => div.innerHTML += msg + "<br>";
+	</script>
+</head>
+
+<body>
+	<div id="boundary">
+		<div id="stage">
+			<video id="video" autoplay></video>
+			<br>
+		</div>
+		<div id="controls">
+	</div>
+	<script src="transformvideo.js"></script>
+</body>
+
+</html>
