@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@800;900&display=swap');
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #222222;
+    color: white;
+}
+.top-container {
+    background-color: #f1f1f1;
+    padding: 30px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Rubik', sans-serif;
+
+    background-image: url("assets/index/top-container-bg.jpg");
+    min-height: 95vh;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.top-container h1{
+    margin: 0;
+    font-size: 10vw;
+    color: white;
+    -webkit-text-stroke-width: 0.5vw;
+    -webkit-text-stroke-color: black;
+}
+.top-container h2{
+    margin: 0;
+    font-size: 40px;
+    color: white;
+    padding-top: 10vh;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+}
+.top-container .top-container-logo{
+    width: 30vh;
+}
+.top-container .socials{
+    height: 100px;
+    color: white;
+    text-decoration: none;
+    font-size: 3vh;
+    margin-top: 10vh;
+    font-weight: bolder;
+    padding: 10px;
+}
+.header {
+    padding: 10px 16px;
+    background: #111111;
+    color: #f1f1f1;
+    text-align: center;
+    z-index: 999;
+}
+.header a{
+    color: white;
+    text-decoration: none;
+    font-size: 3vh;
+    margin: 40px;
+    font-weight: bolder;
+}
+.content {
+    padding: 16px;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.sticky + .content {
+    padding-top: 102px;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    background-color: #EEEEEE;
+    color: black;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.title {
+    color: black;
+    font-size: 18px;
+}
+.card a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+.card a:hover {
+    opacity: 0.7;
+}
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+}
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    font-family: 'Rubik', sans-serif;
+}
+.flip-card:hover .flip-card-inner {
+      transform: rotateY(180deg);
+}
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.flip-card-front {
+    color: black;
+}
+.flip-card-back {
+    color: white;
+    transform: rotateY(180deg);
+}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    transform: translate(-50%, -50%);
+}
