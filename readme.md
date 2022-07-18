@@ -1,4 +1,4 @@
-# ZombieNW.Com
+# ZombieNW.com
 ### _It's just a website_
 ![Languages](https://badgen.net/badge/language/HTML%20CSS%20JS/red)
 

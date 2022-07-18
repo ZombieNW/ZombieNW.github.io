@@ -2,8 +2,9 @@
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #222222;
+    background-color: #121212;
     color: white;
+    font-family: 'Rubik', sans-serif;
 }
 .top-container {
     background-color: #f1f1f1;
@@ -49,7 +50,7 @@ body {
 }
 .header {
     padding: 10px 16px;
-    background: #111111;
+    background: black;
     color: #f1f1f1;
     text-align: center;
     z-index: 999;
@@ -95,41 +96,63 @@ body {
 .card a:hover {
     opacity: 0.7;
 }
-.flip-card {
-    background-color: transparent;
-    width: 300px;
-    height: 300px;
-    display: inline-block;
+
+/* Projects*/
+
+.projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.flip-card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.6s;
-    transform-style: preserve-3d;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    font-family: 'Rubik', sans-serif;
+
+.media {
+  width: 30vw;
+  height: 33vh;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1vw;
+  font-size: 18pt;
 }
-.flip-card:hover .flip-card-inner {
-      transform: rotateY(180deg);
+
+.layer {
+  opacity: 0;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10px;
+  height: 90%;
+  background: #FFF;
+  color: #151E3F;
+  transition: all 0.9s ease;
 }
-.flip-card-front, .flip-card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
+
+.media:hover .layer {
+  opacity: 0.8;
+  width: 90%;
+  transition: all 0.5s ease;
 }
-.flip-card-front {
-    color: black;
+
+.profile{
+    width:100%;
+	display: flex;
+    align-items: center;
 }
-.flip-card-back {
-    color: white;
-    transform: rotateY(180deg);
+
+.profile img{
+    width: 40%;
+    margin-right: 5vw;
 }
+
+.no-wrap{
+    flex: 0 0 auto; 
+}
+
 .button {
-    background-color: #4CAF50; /* Green */
+    background-color: #4CAF50;
     border: none;
     color: white;
     padding: 15px 32px;
