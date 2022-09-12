@@ -115,6 +115,8 @@ body {
   align-items: center;
   margin: 1vw;
   font-size: 18pt;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 .layer {
