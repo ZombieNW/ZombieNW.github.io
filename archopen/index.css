@@ -1,27 +1,96 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@800;900&display=swap');
+html{
+    width: 100%;
+    overflow-x: hidden;
+}
 body {
     margin: 0;
-    font-family: 'Rubik', sans-serif;
-    background-color: #222222;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #121212;
     color: white;
-    margin-top: 15vh;
+    font-family: 'Rubik', sans-serif;
+    overflow: overlay;
+    overflow-x: hidden;
+    width: 100%;
+    direction: ltr;
+}
+*{
+    scrollbar-width: auto;
+    scrollbar-color: #000000 rgba(0,0,0,0);
+}
+*::-webkit-scrollbar {
+    width: 16px;
+}
+*::-webkit-scrollbar-track {
+    background: rgba(0,0,0,0);
+}
+*::-webkit-scrollbar-thumb {
+    background-color: #000000;
+    border-radius: 10px;
+    border: 3px solid #121212;
 }
 
 .header {
     padding: 10px 16px;
-    background: #111111;
+    background: black;
+    height: 4vh;
     color: #f1f1f1;
     text-align: center;
     z-index: 999;
-    position: fixed;
-    top: 0;
-    width: 100%;
 }
+
+.top-container {
+    background-color: #f1f1f1;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    font-family: 'Rubik', sans-serif;
+
+    background-image: url("../assets/archopen/archopen_bg.png");
+    min-height: 50vh;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top-container-logo{
+    width: 60%;
+    position: block;
+}
+
+.body-container {
+    display: flex;
+    flex-direction: row;
+    margin: 5% auto; /* Center the container horizontally */
+    width: 70%; /* Take up 70% of the horizontal space */
+}
+
+.body-container-left {
+    flex: 1;
+}
+
+.body-container-left p {
+    text-indent: 1em; /* Add an indent of 1em to the paragraphs */
+}
+
+.body-container-right {
+    flex: 1;
+}
+
+.body-container-right img {
+    width: 100%;
+    height: auto;
+}
+
 .header a{
     color: white;
     text-decoration: none;
     font-size: 3vh;
-    margin: 40px;
+    margin: 5vw;
     font-weight: bolder;
 }
 .text a{
@@ -51,4 +120,11 @@ body {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 767px) {
+    .body-container {
+      width: 90%; /* Set width to 100% on mobile devices */
+    }
   }
