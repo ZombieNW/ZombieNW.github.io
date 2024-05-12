@@ -32,6 +32,11 @@
 		3px -3px 0 #000;
 }
 
+.gradient-bg {
+	background: rgb(23, 23, 23);
+	background: linear-gradient(180deg, rgba(23, 23, 23, 1) 0%, rgba(5, 2, 7, 1) 100%);
+}
+
 * {
 	scrollbar-width: auto;
 	scrollbar-color: #000000 rgba(0, 0, 0, 0);
