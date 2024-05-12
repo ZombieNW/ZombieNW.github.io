@@ -76,6 +76,10 @@
 <style lang="postcss">
 	.hero {
 		background-image: url('/assets/index/top-container-bg.jpg');
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
 	}
 
 	.profile,
