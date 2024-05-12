@@ -1,5 +1,6 @@
 <script>
 	import Space from '../components/Space.svelte';
+	import Footer from '../components/Footer.svelte';
 </script>
 
 <title>ZombieNW</title>
@@ -24,36 +25,36 @@
 	<h1 class="pl-24 pt-8 text-7xl font-bold text-outline">The Projects</h1>
 
 	<div class="grid grid-cols-3 mx-24 my-8 text-shadow">
-		<div class="flex project-card flex-col items-start gap-3 p-5 m-6 z-1 h-64 shadow-lg border-2 border-border_t hover:border-border_t_h rounded-xl bg-[#46a8394f]">
+		<a href="/retro" class="flex project-card flex-col items-start gap-3 p-5 m-6 z-1 h-64 shadow-lg hover:underline border-2 border-border_t hover:border-border_t_h rounded-xl bg-[#46a8394f]">
 			<p class="text-4xl font-bold">Retro Tennis</p>
 			<p class="-mt-3 text-l">Wii Homebrew Pong Clones</p>
 			<img src="./assets/retro/retrotennis_logo.png" alt="Retro Tennis Logo" class="overflow-hidden mx-auto" />
-		</div>
-		<div class="flex project-card flex-col items-start gap-3 p-5 m-6 z-1 h-64 shadow-lg border-2 border-border_t hover:border-border_t_h rounded-xl bg-[#832dd44f]">
+		</a>
+		<a href="/smplrchess" class="flex project-card flex-col items-start gap-3 p-5 m-6 z-1 h-64 shadow-lg hover:underline border-2 border-border_t hover:border-border_t_h rounded-xl bg-[#832dd44f]">
 			<p class="text-4xl font-bold">Smplr Chess</p>
 			<p class="-mt-3 text-l">A decluttered chess app for Android.</p>
-			<img src="./images/retrotennis_logo.png" alt="Retro Tennis Logo" class="overflow-hidden mx-auto" />
-		</div>
-		<div class="flex project-card flex-col items-start gap-3 p-5 m-6 z-1 h-64 shadow-lg border-2 border-border_t hover:border-border_t_h rounded-xl bg-[#1c5a974f]">
+			<img src="./assets/smplrchess/smplrchess_logo.png" alt="Retro Tennis Logo" class="overflow-hidden mx-auto" />
+		</a>
+		<a href="/embedabbl" class="flex project-card flex-col items-start gap-3 p-5 m-6 z-1 h-64 shadow-lg hover:underline border-2 border-border_t hover:border-border_t_h rounded-xl bg-[#1c5a974f]">
 			<p class="text-4xl font-bold">Embedabbl</p>
 			<p class="-mt-3 text-l">Easy to use media wrapper.</p>
-			<img src="./images/retrotennis_logo.png" alt="Retro Tennis Logo" class="overflow-hidden mx-auto" />
-		</div>
-		<div class="flex project-card flex-col items-start gap-3 p-5 m-6 z-1 h-64 shadow-lg border-2 border-border_t hover:border-border_t_h rounded-xl bg-[#af21664f]">
+			<img src="./assets/embedabbl/embedabbl_logo.png" alt="Retro Tennis Logo" class="overflow-hidden mx-auto" />
+		</a>
+		<a href="/archopen" class="flex project-card flex-col items-start gap-3 p-5 m-6 z-1 h-64 shadow-lg hover:underline border-2 border-border_t hover:border-border_t_h rounded-xl bg-[#af21664f]">
 			<p class="text-4xl font-bold">ArchOpen</p>
 			<p class="-mt-3 text-l">File association manager for RetroArch on Windows.</p>
-			<img src="./images/retrotennis_logo.png" alt="Retro Tennis Logo" class="overflow-hidden mx-auto" />
-		</div>
-		<div class="flex project-card flex-col items-start gap-3 p-5 m-6 z-1 h-64 shadow-lg border-2 border-border_t hover:border-border_t_h rounded-xl bg-[#0000004F]">
+			<img src="./assets/archopen/archopen_logo.png" alt="Retro Tennis Logo" class="overflow-hidden mx-auto" />
+		</a>
+		<a href="/comingsoon" class="flex project-card flex-col items-start gap-3 p-5 m-6 z-1 h-64 shadow-lg hover:underline border-2 border-border_t hover:border-border_t_h rounded-xl bg-[#0000004F]">
 			<p class="text-4xl font-bold">Coming Soon</p>
 			<p class="-mt-3 text-l">bottom text</p>
-			<img src="/images/retrotennis_logo.png" alt="Retro Tennis Logo" class="overflow-hidden mx-auto" />
-		</div>
-		<div class="flex project-card flex-col items-start gap-3 p-5 m-6 z-1 h-64 shadow-lg border-2 border-border_t hover:border-border_t_h rounded-xl bg-[#32b9904F]">
+			<img src="/assets/index/comingsoon_logo.png" alt="Retro Tennis Logo" class="overflow-hidden mx-auto" />
+		</a>
+		<a href="/projectbismuth" class="flex project-card flex-col items-start gap-3 p-5 m-6 z-1 h-64 shadow-lg hover:underline border-2 border-border_t hover:border-border_t_h rounded-xl bg-[#32b9904F]">
 			<p class="text-4xl font-bold">Project Bismuth</p>
 			<p class="-mt-3 text-l">A discontinued FPS game for Windows.</p>
-			<img src="./images/retrotennis_logo.png" alt="Retro Tennis Logo" class="overflow-hidden mx-auto" />
-		</div>
+			<img src="./assets/projectbismuth/projectbismuth_logo.png" alt="Retro Tennis Logo" class="overflow-hidden mx-auto" />
+		</a>
 	</div>
 	<hr class="w-1/4 mx-auto" />
 
@@ -69,38 +70,10 @@
 			</p>
 		</div>
 	</div>
-	<hr class="w-1/4 mx-auto" />
-	<div class="w-full flex items-center justify-center my-8">
-		<a href="https://discord.gg/tKFMy85"><i class="fab fa-discord fa-2x m-4 text-5xl"></i></a>
-		<a href="https://youtube.com/zombienw"><i class="fab fa-youtube fa-2x m-4 text-5xl"></i></a>
-		<a href="https://twitter.com/zombie_nw"><i class="fab fa-twitter fa-2x m-4 text-5xl"></i></a>
-		<a href="https://www.twitch.tv/zombie_nw"><i class="fab fa-twitch fa-2x m-4 text-5xl"></i></a>
-		<a href="https://github.com/ZombieNW"><i class="fab fa-github fa-2x m-4 text-5xl"></i></a>
-	</div>
-
-	<hr class="w-1/4 mx-auto" />
-
-	<center>
-		<h1 class="text-xl my-4">Can't Find Something? Try our <a href="/lost-and-found" class="italic">Lost & Found</a></h1>
-	</center>
-
-	<hr class="w-1/4 mx-auto" />
-
-	<center>
-		<h1 class="text-xl pt-6 pb-8">ZombieNW, {new Date().getFullYear()}</h1>
-	</center>
+	<Footer />
 </body>
 
 <style lang="postcss">
-	:global(html) {
-		background-color: #121212;
-		color: #ffffff;
-		font-family: 'Rubik', sans-serif;
-		font-optical-sizing: auto;
-		font-weight: 400;
-		font-style: normal;
-	}
-
 	.hero {
 		background-image: url('/assets/index/top-container-bg.jpg');
 	}
