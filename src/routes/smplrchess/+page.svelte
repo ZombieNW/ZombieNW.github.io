@@ -5,7 +5,7 @@
 
 <title>Retro Tennis - ZombieNW</title>
 
-<div class="bg-bg_b_t w-full h-16 text-center flex items-center justify-center border-2 border-border_t hover:border-border_t_h_l">
+<div class="bg-bg_b_t w-full h-16 text-center flex items-center justify-center border-2 border-2 border-border_t hover:border-border_t_h_l">
 	<a href="https://www.youtube.com/@ZombieNW" class="mx-32 text-3xl font-bold hover:italic">Watch <i class="fa-brands fa-youtube"></i></a>
 	<a href="/" class="mx-32 text-3xl font-bold hover:italic">Home <i class="fa-solid fa-home"></i></a>
 	<a href="https://store.zombienw.com/" class="mx-32 text-3xl font-bold hover:italic">Shop <i class="fa-solid fa-bag-shopping"></i></a>
@@ -41,7 +41,7 @@
 				<div class="w-1/2 pr-4">
 					<p class="text-4xl font-bold py-2">SmplrChess v1.1</p>
 					<p class="text-l pb-6">Works offline, easy to use, customizable, it's just that Smpl.</p>
-					<a href="https://github.com/ZombieNW/SmplrChess/releases/download/1.1/SmplrChess_1.1.0.apk" class="px-8 py-4 bg-bg_t border-border_t hover:border-border_t_h rounded-xl">Download - Android APK</a>
+					<a href="https://github.com/ZombieNW/SmplrChess/releases/download/1.1/SmplrChess_1.1.0.apk" class="px-8 py-4 bg-bg_t border-2 border-border_t hover:border-border_t_h rounded-xl">Download - Android APK</a>
 				</div>
 				<img src="./assets/smplrchess/smplrchess_banner.png" alt="Simpler Chess Banner" class="overflow-hidden mx-auto h-full rounded-xl" />
 			</div>

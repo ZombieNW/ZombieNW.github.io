@@ -33,7 +33,7 @@
 				<div class="w-1/2 pr-4">
 					<p class="text-4xl font-bold py-2">ArchOpen v0.5</p>
 					<p class="text-l pb-6">An easier way to open games with RetroArch on Windows.</p>
-					<a href="https://github.com/ZombieNW/ArchOpen/releases" class="px-8 py-4 bg-bg_t border-border_t hover:border-border_t_h rounded-xl">Download - Windows</a>
+					<a href="https://github.com/ZombieNW/ArchOpen/releases" class="px-8 py-4 bg-bg_t border-2 border-border_t hover:border-border_t_h rounded-xl">Download - Windows</a>
 				</div>
 				<img src="/assets/archopen/gif.gif" alt="Arch Open Banner" class="overflow-hidden mx-auto h-full rounded-xl" />
 			</div>
