@@ -45,15 +45,15 @@
 			<p class="-mt-3 text-l">File association manager for RetroArch on Windows.</p>
 			<img src="./assets/archopen/archopen_logo.png" alt="Retro Tennis Logo" class="overflow-hidden mx-auto" />
 		</a>
-		<a href="/comingsoon" class="flex project-card flex-col items-start gap-3 p-5 m-6 z-1 h-64 shadow-lg hover:underline border-2 border-border_t hover:border-border_t_h rounded-xl bg-[#0000004F]">
+		<a href="#." class="flex project-card flex-col items-start gap-3 p-5 m-6 z-1 h-64 shadow-lg hover:underline border-2 border-border_t hover:border-border_t_h rounded-xl bg-[#0000004F]">
 			<p class="text-4xl font-bold">Coming Soon</p>
 			<p class="-mt-3 text-l">bottom text</p>
 			<img src="/assets/index/comingsoon_logo.png" alt="Retro Tennis Logo" class="overflow-hidden mx-auto" />
 		</a>
-		<a href="/projectbismuth" class="flex project-card flex-col items-start gap-3 p-5 m-6 z-1 h-64 shadow-lg hover:underline border-2 border-border_t hover:border-border_t_h rounded-xl bg-[#32b9904F]">
-			<p class="text-4xl font-bold">Project Bismuth</p>
-			<p class="-mt-3 text-l">A discontinued FPS game for Windows.</p>
-			<img src="./assets/projectbismuth/projectbismuth_logo.png" alt="Retro Tennis Logo" class="overflow-hidden mx-auto" />
+		<a href="#." class="flex project-card flex-col items-start gap-3 p-5 m-6 z-1 h-64 shadow-lg hover:underline border-2 border-border_t hover:border-border_t_h rounded-xl bg-[#0000004F]">
+			<p class="text-4xl font-bold">Coming Soon</p>
+			<p class="-mt-3 text-l">bottom text</p>
+			<img src="/assets/index/comingsoon_logo.png" alt="Retro Tennis Logo" class="overflow-hidden mx-auto" />
 		</a>
 	</div>
 	<hr class="w-1/4 mx-auto" />
