@@ -123,7 +123,7 @@
 	});
 </script>
 
-<canvas id="bgCanvas" bind:this={background}></canvas>
+<canvas id="bgCanvas" class={$$restProps.class || ''} bind:this={background}></canvas>
 
 <style>
 	canvas {

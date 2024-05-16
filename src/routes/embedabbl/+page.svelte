@@ -18,27 +18,27 @@
 <title>Retro Tennis - ZombieNW</title>
 
 <div class="bg-bg_b_t w-full h-16 text-center flex items-center justify-center border-2 border-border_t hover:border-border_t_h_l">
-	<a href="https://www.youtube.com/@ZombieNW" class="mx-32 text-3xl font-bold hover:italic">Watch <i class="fa-brands fa-youtube"></i></a>
-	<a href="/" class="mx-32 text-3xl font-bold hover:italic">Home <i class="fa-solid fa-home"></i></a>
-	<a href="https://store.zombienw.com/" class="mx-32 text-3xl font-bold hover:italic">Shop <i class="fa-solid fa-bag-shopping"></i></a>
+	<a href="https://www.youtube.com/@ZombieNW" class="md:mx-32 mx-2 text-3xl font-bold hover:italic">Watch <i class="fa-brands fa-youtube md:inline hidden"></i></a>
+	<a href="/" class="md:mx-32 mx-2 text-3xl font-bold hover:italic">Home <i class="fa-solid fa-home md:inline hidden"></i></a>
+	<a href="https://store.zombienw.com/" class="md:mx-32 mx-2 text-3xl font-bold hover:italic">Shop <i class="fa-solid fa-bag-shopping md:inline hidden"></i></a>
 </div>
 
 <div class="h-[50vh] hero align-middle overflow-hidden flex justify-center items-center">
 	<img src="/assets/embedabbl/embedabbl_logo.png" alt="A letter E with a purple outline." class="znw_logo h-[30vh] absolute" />
-	<Space class="h-96 absolute" />
+	<Space class="h-full" />
 </div>
 
 <body class="gradient-bg">
-	<h1 class="pl-24 pt-8 text-7xl font-bold text-outline">The What?</h1>
-	<h1 class="pl-24 text-2xl">
+	<h1 class="md:pl-24 pl-4 pt-8 md:text-7xl text-5xl font-bold text-outline">The What?</h1>
+	<h1 class="md:pl-24 pl-4 text-2xl">
 		<span>Embedabbl is an easy to use media embeding wrapper to quickly add Flash Games & Emulators to your website without having to read unearthly amounts of documentation.</span><br /><br />
 		<h1 class="text-3xl italic">This is stupid.</h1>
 		<span>I agree, most of these tools have their own way of embeding things into websites. I just happened to make myself a tool that makes it easier for me, and thought I'd share. Don't expect this to be a big deal, it's not.</span>
 	</h1>
 
-	<h1 class="pl-24 pt-8 text-7xl font-bold text-outline">Usage</h1>
-	<h1 class="pl-24 pt-8 text-2xl text-outline">Full "documentation" is available on <a href="https://github.com/ZombieNW/Embedabbl" class="italic underline font-bold">GitHub</a>.</h1>
-	<div class="flex justify-center items-center my-24">
+	<h1 class="md:pl-24 pl-4 pt-8 md:text-7xl text-5xl font-bold text-outline">Usage</h1>
+	<h1 class="md:pl-24 pl-4 pt-8 text-2xl text-outline">Full "documentation" is available on <a href="https://github.com/ZombieNW/Embedabbl" class="italic underline font-bold">GitHub</a>.</h1>
+	<div class="flex justify-center items-center my-24 flex-wrap gap-4">
 		<a href="#." on:click={awayFL} class="px-8 mx-8 py-4 bg-[#7092e73f] border-2 border-border_t hover:border-border_t_h rounded-xl">Try AwayFL Core</a>
 		<a href="#." on:click={emuJS} class="px-8 mx-8 py-4 bg-[#7092e73f] border-2 border-border_t hover:border-border_t_h rounded-xl">Try EmuJS Core</a>
 		<a href="#." on:click={jsDOS} class="px-8 mx-8 py-4 bg-[#7092e73f] border-2 border-border_t hover:border-border_t_h rounded-xl">Try JSDos Core</a>
