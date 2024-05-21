@@ -36,9 +36,9 @@
 	<h1 class="md:pl-24 pl-4 pt-8 md:text-7xl text-5xl font-bold text-outline">Usage</h1>
 	<h1 class="md:pl-24 pl-4 pt-8 text-2xl text-outline">Full "documentation" is available on <a href="https://github.com/ZombieNW/Embedabbl" class="italic underline font-bold">GitHub</a>.</h1>
 	<div class="flex justify-center items-center my-24 flex-wrap gap-4">
-		<a href="" on:click={awayFL} class="px-8 mx-8 py-4 bg-[#7092e73f] border-2 border-border_t hover:border-border_t_h rounded-xl">Try AwayFL Core</a>
-		<a href="#" on:click={emuJS} class="px-8 mx-8 py-4 bg-[#7092e73f] border-2 border-border_t hover:border-border_t_h rounded-xl">Try EmuJS Core</a>
-		<a href="#" on:click={jsDOS} class="px-8 mx-8 py-4 bg-[#7092e73f] border-2 border-border_t hover:border-border_t_h rounded-xl">Try JSDos Core</a>
+		<a href={'#'} on:click={awayFL} class="px-8 mx-8 py-4 bg-[#7092e73f] border-2 border-border_t hover:border-border_t_h rounded-xl">Try AwayFL Core</a>
+		<a href={'#'} on:click={emuJS} class="px-8 mx-8 py-4 bg-[#7092e73f] border-2 border-border_t hover:border-border_t_h rounded-xl">Try EmuJS Core</a>
+		<a href={'#'} on:click={jsDOS} class="px-8 mx-8 py-4 bg-[#7092e73f] border-2 border-border_t hover:border-border_t_h rounded-xl">Try JSDos Core</a>
 	</div>
 	<Footer />
 </body>

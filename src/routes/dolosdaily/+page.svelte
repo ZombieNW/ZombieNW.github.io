@@ -24,7 +24,7 @@
 		<h1 class="text-3xl italic">Watch The Video</h1>
 		<iframe src="https://www.youtube.com/embed/0DeXNBOuRDo" class="h-96 md:w-1/3 w-full" title="A YouTube video" frameborder="0" allowfullscreen></iframe><br />
 		<a href="https://github.com/ZombieNW/DolosDaily" class="text-3xl italic underline">View The Source Code</a> <br /> <br />
-		<a href="#" on:click={popup} class="text-3xl italic underline">View The Demo Page</a>
+		<a href={'#'} on:click={popup} class="text-3xl italic underline">View The Demo Page</a>
 		<p>NOTICE: The Demo Page is NOT Designed For Mobile</p>
 		<br />
 	</h1>
