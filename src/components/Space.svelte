@@ -41,8 +41,13 @@
 		Star.prototype.reset = function () {
 			this.size = Math.random() * 2;
 			this.speed = Math.random() * 0.25;
-			this.x = Math.random() * width;
-			this.y = Math.random() * height;
+			if (Math.random() < 0.5) {
+				this.x = Math.random() * width;
+				this.y = height;
+			} else {
+				this.y = Math.random() * height;
+				this.x = width;
+			}
 		};
 
 		Star.prototype.update = function () {
