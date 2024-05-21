@@ -3,7 +3,7 @@
 	import Footer from '../../components/Footer.svelte';
 
 	function popup() {
-		const popupWindow = window.open('/dolosdaily/demo/index.html');
+		const popupWindow = window.open('/dddemo/index.html');
 	}
 </script>
 
