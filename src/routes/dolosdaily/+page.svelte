@@ -1,6 +1,7 @@
 <script>
 	import Space from '../../components/Space.svelte';
 	import Footer from '../../components/Footer.svelte';
+	import Header from '../../components/Header.svelte';
 
 	function popup() {
 		const popupWindow = window.open('/dddemo/index.html');
@@ -9,11 +10,7 @@
 
 <title>Dolos Daily - ZombieNW</title>
 
-<div class="bg-bg_b_t w-full h-16 text-center flex items-center justify-center">
-	<a href="https://www.youtube.com/@ZombieNW" class="md:mx-32 mx-2 text-3xl font-bold hover:italic">Watch <i class="fa-brands fa-youtube md:inline hidden"></i></a>
-	<a href="/" class="md:mx-32 mx-2 text-3xl font-bold hover:italic">Home <i class="fa-solid fa-home md:inline hidden"></i></a>
-	<a href="https://store.zombienw.com/" class="md:mx-32 mx-2 text-3xl font-bold hover:italic">Shop <i class="fa-solid fa-bag-shopping md:inline hidden"></i></a>
-</div>
+<Header />
 
 <div class="h-[50vh] hero align-middle overflow-hidden flex justify-center items-center">
 	<img src="/assets/dolosdaily/dolosdaily_logo.png" alt="The words Dolos and Daily with a globe between them." class="znw_logo h-[20vh] absolute" />
