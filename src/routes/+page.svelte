@@ -16,7 +16,7 @@
 </div>
 
 <body class="gradient-bg">
-	<div class="bg-bg_b_t w-full h-16 text-center flex items-center justify-center border-2 border-border_t hover:border-border_t_h_l">
+	<div class="bg-bg_b_t w-full h-16 text-center flex items-center justify-center">
 		<a href="https://www.youtube.com/@ZombieNW" class="md:mx-32 mx-2 text-3xl font-bold hover:italic">Watch <i class="fa-brands fa-youtube md:inline hidden"></i></a>
 		<a href="https://store.zombienw.com/" class="md:mx-32 mx-2 text-3xl font-bold hover:italic">Shop <i class="fa-solid fa-bag-shopping md:inline hidden"></i></a>
 		<a href="/contact" class="md:mx-32 mx-2 text-3xl font-bold hover:italic">Contact <i class="fa-solid fa-address-book md:inline hidden"></i></a>
