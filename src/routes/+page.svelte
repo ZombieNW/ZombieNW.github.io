@@ -8,9 +8,9 @@
 <div class="h-[70vh] hero align-middle overflow-hidden">
 	<Space class="h-full" />
 	<div class="absolute md:left-24 md:top-1/3 top-1/4 -translate-y-1/2 md:text-left text-center w-full">
-		<h1 class="md:text-7xl text-3xl font-black text-outline">Hi, It's Me,</h1>
-		<h1 class="md:text-9xl text-5xl font-black text-outline">ZombieNW</h1>
-		<h1 class="md:text-4xl text-2xl leading-normal font-bold text-outline">Programmer, YouTuber, Mediocre Joke Maker</h1>
+		<h1 class="md:text-[6rem] text-3xl font-black text-outline">Hi, It's Me,</h1>
+		<h1 class="md:text-[10rem] text-5xl leading-tight font-black text-outline">ZombieNW</h1>
+		<h1 class="md:text-[2.5rem] text-2xl leading-4 font-bold text-outline">Programmer, YouTuber, Mediocre Joke Maker</h1>
 	</div>
 	<img src="./assets/logo.png" alt="ZombieNW Logo - Start with a sword in it." class="znw_logo absolute md:right-24 top-1/3 md:-translate-y-1/2 md:translate-x-0 -translate-x-1/2 md:left-auto left-1/2 md:w-[20vw] w-[20vh]" />
 </div>

@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>404 - ZombieNW</title>
+		<link rel="shortcut icon" href="../assets/logo.png" type="image/x-icon" />
+		<style>
+			@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@800;900&display=swap');
+			@keyframes move-twink-back {
+				from {
+					background-position: 0 0;
+				}
+				to {
+					background-position: -10000px 5000px;
+				}
+			}
+			@-webkit-keyframes move-twink-back {
+				from {
+					background-position: 0 0;
+				}
+				to {
+					background-position: -10000px 5000px;
+				}
+			}
+			@-moz-keyframes move-twink-back {
+				from {
+					background-position: 0 0;
+				}
+				to {
+					background-position: -10000px 5000px;
+				}
+			}
+			@-ms-keyframes move-twink-back {
+				from {
+					background-position: 0 0;
+				}
+				to {
+					background-position: -10000px 5000px;
+				}
+			}
+			@keyframes move-clouds-back {
+				from {
+					background-position: 0 0;
+				}
+				to {
+					background-position: 10000px 0;
+				}
+			}
+			@-webkit-keyframes move-clouds-back {
+				from {
+					background-position: 0 0;
+				}
+				to {
+					background-position: 10000px 0;
+				}
+			}
+			@-moz-keyframes move-clouds-back {
+				from {
+					background-position: 0 0;
+				}
+				to {
+					background-position: 10000px 0;
+				}
+			}
+			@-ms-keyframes move-clouds-back {
+				from {
+					background-position: 0;
+				}
+				to {
+					background-position: 10000px 0;
+				}
+			}
+			.stars,
+			.twinkling,
+			.clouds {
+				position: absolute;
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				width: 100%;
+				height: 100%;
+				display: block;
+			}
+			.stars {
+				background: #000 url(assets/404/stars.png) repeat top center;
+				z-index: 0;
+			}
+			.twinkling {
+				background: transparent url(assets/404/twinkling.png) repeat top center;
+				z-index: 1;
+				-moz-animation: move-twink-back 200s linear infinite;
+				-ms-animation: move-twink-back 200s linear infinite;
+				-o-animation: move-twink-back 200s linear infinite;
+				-webkit-animation: move-twink-back 200s linear infinite;
+				animation: move-twink-back 200s linear infinite;
+			}
+			.clouds {
+				background: transparent url(assets/404/clouds.png) repeat top center;
+				z-index: 3;
+				-moz-animation: move-clouds-back 200s linear infinite;
+				-ms-animation: move-clouds-back 200s linear infinite;
+				-o-animation: move-clouds-back 200s linear infinite;
+				-webkit-animation: move-clouds-back 200s linear infinite;
+				animation: move-clouds-back 200s linear infinite;
+			}
+			.title {
+				font-size: 20vw;
+				font-family: 'Rubik', sans-serif;
+				position: fixed;
+				left: 28%;
+				color: white;
+				z-index: 5;
+			}
+			.subtext {
+				color: white;
+				z-index: 5;
+				font-size: 50px;
+				font-family: 'Rubik', sans-serif;
+				position: fixed;
+				top: 65%;
+				left: 1%;
+			}
+			.link {
+				text-decoration: none;
+				color: #649cbd;
+			}
+		</style>
+	</head>
+	<body>
+		<center>
+			<h1 class="title">404</h1>
+			<h1 class="subtext">If you're looking for something old, try our <a class="link" href="../lost-and-found/index.html">Lost And Found</a>. Or go <a class="link" href="https://zombienw.com/">Home</a>.</h1>
+		</center>
+		<div class="stars"></div>
+		<div class="twinkling"></div>
+		<div class="clouds"></div>
+	</body>
+</html>
