@@ -7,7 +7,8 @@
 		"build": "vite build",
 		"preview": "vite preview",
 		"lint": "prettier --check .",
-		"format": "prettier --write ."
+		"format": "prettier --write .",
+		"deploy": "npm run build && git checkout gh-pages && git rm -rf . && git add -f build && git commit -m 'Update build directory' && git push origin gh-pages --force"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^3.0.0",
