@@ -15,7 +15,7 @@
 
 <body class="gradient-bg">
 	<h1 class="md:pl-24 pl-4 pt-8 md:text-7xl text-5xl font-bold text-outline">The What?</h1>
-	<h1 class="md:pl-24 pl-4 text-2xl font-medium">
+	<h1 class="md:pl-24 pl-4 text-2xl font-medium md:w-2/3">
 		Retro Tennis is a series of homebrew clones made for the Nintendo Wii. Learning how the Wii works and how to make apps for it was a project for me during the panedmic. If you want to try one out, <span class="italic">Play Retro Tennis 3D!</span>
 		<br /> <br />
 		NOTICE! Install the WADs at your own risk! I am not responsible for any bricks!

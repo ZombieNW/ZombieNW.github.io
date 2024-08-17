@@ -15,10 +15,9 @@
 
 <body class="gradient-bg">
 	<h1 class="md:pl-24 pl-4 pt-8 md:text-7xl text-5xl font-bold text-outline">The What?</h1>
-	<h1 class="md:pl-24 pl-4 text-2xl font-medium">
-		A Smplr way to play Chess. <br /> A problem that's plagued me for too long is that Chess apps are way too complicated. This game has existed for almost thousands of years and it's still so damn complicated to play it on your phone? If you want an app that's
-		just chess, here it is! You open the app and you're greeted right away by chess. No making an account, no ads, no tomfoolery, it's just chess. This doesn't mean it doesn't have features. Want to change the CPU difficulty? Want hints? Want to control the
-		difficulty of the hints? Want to change theme? (Coming Soon.) There's an easy to use menu for it! This app will never not be chess.
+	<h1 class="md:pl-24 pl-4 text-2xl font-medium md:w-2/3">
+		This game has existed for almost thousands of years and it's still so darn complicated to play it on your phone? If you want an app that's just chess, here it is! No accounts, no ads, no fuss. Open the app and start playing instantly. Adjust CPU
+		difficulty, get hints (and control their difficulty), and customize themes (coming soon) with an easy-to-use menu. It's straightforward and always just chess.
 	</h1>
 
 	<h1 class="md:pl-24 pl-4 pt-8 md:text-7xl text-5xl font-bold text-outline">The Screenshots</h1>

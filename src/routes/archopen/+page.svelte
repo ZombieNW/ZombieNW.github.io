@@ -15,11 +15,15 @@
 
 <body class="gradient-bg">
 	<h1 class="md:pl-24 pl-4 pt-8 md:text-7xl text-5xl font-bold text-outline">The What?</h1>
-	<h1 class="md:pl-24 pl-4 text-2xl font-medium">
-		Easily set up file associations for your rom collection. For those who don't like frontends or just want to easily open a rom sent to them. <br /> <br />
-		Usage: <br />
-		Grab the latest release below, and generate a config by running "archopen.exe --generateconfig". <br /> Customize your config to your liking so each extension cooresponds with a core of your chosing. <br />
-		Then just set the file type to always open with archopen.exe
+	<h1 class="md:pl-24 pl-4 text-2xl font-medium md:w-2/3">
+		No need for complicated frontends—just quickly open ROMs.<br /> <br />
+		Usage:
+		<ul class="list-disc mx-6">
+			<li>Download the latest release below.</li>
+			<li>Run 'archopen.exe --generateconfig' to create a config file.</li>
+			<li>Customize the config so each file extension matches your preferred core.</li>
+			<li>Set the file type to always open with 'archopen.exe'</li>
+		</ul>
 	</h1>
 
 	<h1 class="md:pl-24 pl-4 pt-8 md:text-7xl text-5xl font-bold text-outline">The Download</h1>

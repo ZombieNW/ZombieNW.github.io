@@ -15,10 +15,10 @@
 
 <body class="gradient-bg">
 	<h1 class="md:pl-24 pl-4 pt-8 md:text-7xl text-5xl font-bold text-outline">The What?</h1>
-	<h1 class="md:pl-24 pl-4 text-2xl">
+	<h1 class="md:pl-24 pl-4 text-2xl md:w-2/3">
 		<span>The Dolos Daily is an AI powered fake news website made for educational and demonstrational purposes. It uses LLAMA-Node as well as the Unsplash API to generate articles from a given list of subjects.</span><br /><br />
 		<h1 class="text-3xl italic">Watch The Video</h1>
-		<iframe src="https://www.youtube.com/embed/0DeXNBOuRDo" class="h-96 md:w-1/3 w-full" title="A YouTube video" frameborder="0" allowfullscreen></iframe><br />
+		<iframe src="https://www.youtube.com/embed/0DeXNBOuRDo" class="h-96 md:w-1/2 w-full" title="A YouTube video" frameborder="0" allowfullscreen></iframe><br />
 		<a href="https://github.com/ZombieNW/DolosDaily" class="text-3xl italic underline">View The Source Code</a> <br /> <br />
 		<a href="/dddemo/index.html" class="text-3xl italic underline">View The Demo Page</a>
 		<p>NOTICE: The Demo Page is NOT Designed For Mobile</p>
