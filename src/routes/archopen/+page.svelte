@@ -46,12 +46,4 @@
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
-
-	.project-card {
-		transition: transform 0.5s ease;
-	}
-
-	.project-card:hover {
-		transform: scale(1.01);
-	}
 </style>
