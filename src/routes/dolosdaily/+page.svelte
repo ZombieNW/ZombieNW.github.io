@@ -26,7 +26,7 @@
 		<h1 class="pt-8 md:text-5xl text-4xl font-bold text-outline underline mb-2">Try It!</h1>
 		<p>NOTICE: The Demo Page is NOT Designed For Mobile</p>
 		<div class="flex justify-center items-center mt-12 mb-24 flex-wrap gap-4">
-			<a href="/dddemo/index.html" class="px-8 mx-8 py-4 bg-[#7092e73f] border-2 border-border_t hover:border-border_t_h rounded-xl">Demo Page</a>
+			<a href="https://dd.zombienw.com/" class="px-8 mx-8 py-4 bg-[#7092e73f] border-2 border-border_t hover:border-border_t_h rounded-xl">Demo Page</a>
 			<a href="https://github.com/ZombieNW/DolosDaily" class="px-8 mx-8 py-4 bg-[#7092e73f] border-2 border-border_t hover:border-border_t_h rounded-xl">Source Code</a>
 		</div>
 	</div>
