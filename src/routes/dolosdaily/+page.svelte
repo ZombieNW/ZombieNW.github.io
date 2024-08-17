@@ -24,9 +24,11 @@
 		<iframe src="https://www.youtube.com/embed/0DeXNBOuRDo" class="h-96 md:w-1/2 w-full" title="A YouTube video" frameborder="0" allowfullscreen></iframe><br />
 
 		<h1 class="pt-8 md:text-5xl text-4xl font-bold text-outline underline mb-2">Try It!</h1>
-		<a href="/dddemo/index.html" class="text-3xl italic underline">View The Demo Page</a>
-		<a href="https://github.com/ZombieNW/DolosDaily" class="text-3xl italic underline">View The Source Code</a> <br /> <br />
 		<p>NOTICE: The Demo Page is NOT Designed For Mobile</p>
+		<div class="flex justify-center items-center mt-12 mb-24 flex-wrap gap-4">
+			<a href="/dddemo/index.html" class="px-8 mx-8 py-4 bg-[#7092e73f] border-2 border-border_t hover:border-border_t_h rounded-xl">Demo Page</a>
+			<a href="https://github.com/ZombieNW/DolosDaily" class="px-8 mx-8 py-4 bg-[#7092e73f] border-2 border-border_t hover:border-border_t_h rounded-xl">Source Code</a>
+		</div>
 	</div>
 	<Footer />
 </body>
