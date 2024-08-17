@@ -14,29 +14,33 @@
 </div>
 
 <body class="gradient-bg">
-	<h1 class="md:pl-24 pl-4 pt-8 md:text-7xl text-5xl font-bold text-outline">The What?</h1>
-	<h1 class="md:pl-24 pl-4 text-2xl font-medium md:w-2/3">
-		No need for complicated frontends—just quickly open ROMs.<br /> <br />
-		Usage:
-		<ul class="list-disc mx-6">
-			<li>Download the latest release below.</li>
-			<li>Run 'archopen.exe --generateconfig' to create a config file.</li>
-			<li>Customize the config so each file extension matches your preferred core.</li>
-			<li>Set the file type to always open with 'archopen.exe'</li>
-		</ul>
-	</h1>
+	<div class="w-10/12 mx-auto md:pl-24 pl-4 text-2xl">
+		<h1 class="pt-8 md:text-7xl text-5xl font-bold text-outline mb-4">ArchOpen</h1>
 
-	<h1 class="md:pl-24 pl-4 pt-8 md:text-7xl text-5xl font-bold text-outline">The Download</h1>
+		<h1 class="pt-8 md:text-5xl text-4xl font-bold text-outline underline mb-2">About</h1>
+		<h1 class="font-medium md:w-2/3">Complicated emulation front-ends got you down? We've got you covered. No need for complicated frontends—just quickly open ROMs.</h1>
 
-	<div class="grid grid-cols-1 md:mx-72 my-8 text-shadow">
-		<div class="flex project-card flex-col items-start gap-3 p-5 m-6 z-1 h-96 shadow-lg border-2 border-border_t hover:border-border_t_h rounded-xl bg-[#3F3F3F4F]">
-			<div class="w-full flex items-center justify-center h-full">
-				<div class="md:w-1/2 pr-4">
-					<p class="text-4xl font-bold py-2">ArchOpen v0.5</p>
-					<p class="text-l pb-6">An easier way to open games with RetroArch on Windows.</p>
-					<a href="https://github.com/ZombieNW/ArchOpen/releases" class="px-8 py-4 bg-bg_t border-2 border-border_t hover:border-border_t_h rounded-xl">Download - Windows</a>
+		<h1 class="pt-8 md:text-5xl text-4xl font-bold text-outline underline mb-2">Usage</h1>
+		<h1 class="font-medium md:w-2/3">
+			<ul class="list-disc mx-6">
+				<li>Download the latest release below.</li>
+				<li>Run 'archopen.exe --generateconfig' to create a config file.</li>
+				<li>Customize the config so each file extension matches your preferred core.</li>
+				<li>Set the file type to always open with 'archopen.exe'</li>
+			</ul>
+		</h1>
+
+		<h1 class="pt-8 md:text-5xl text-4xl font-bold text-outline underline mb-2">Download</h1>
+		<div class="grid grid-cols-1 md:mx-72 my-8 text-shadow">
+			<div class="flex project-card flex-col items-start gap-3 p-5 m-6 z-1 h-96 shadow-lg border-2 border-border_t hover:border-border_t_h rounded-xl bg-[#3F3F3F4F]">
+				<div class="w-full flex items-center justify-center h-full">
+					<div class="md:w-1/2 pr-4">
+						<p class="text-4xl font-bold py-2">ArchOpen v0.5</p>
+						<p class="text-l pb-6">An easier way to open games with RetroArch on Windows.</p>
+						<a href="https://github.com/ZombieNW/ArchOpen/releases" class="px-8 py-4 bg-bg_t border-2 border-border_t hover:border-border_t_h rounded-xl">Download - Windows</a>
+					</div>
+					<img src="/assets/archopen/gif.gif" alt="Arch Open Banner" class="overflow-hidden mx-auto h-full rounded-xl md:block hidden" />
 				</div>
-				<img src="/assets/archopen/gif.gif" alt="Arch Open Banner" class="overflow-hidden mx-auto h-full rounded-xl md:block hidden" />
 			</div>
 		</div>
 	</div>

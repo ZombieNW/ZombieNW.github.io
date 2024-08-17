@@ -26,19 +26,25 @@
 </div>
 
 <body class="gradient-bg">
-	<h1 class="md:pl-24 pl-4 pt-8 md:text-7xl text-5xl font-bold text-outline">The What?</h1>
-	<h1 class="md:pl-24 pl-4 text-2xl md:w-2/3">
-		<span>Embedabbl is an easy to use interactive media embeding wrapper to quickly add Flash Games & Emulators to your website without having to read unearthly amounts of documentation.</span><br /><br />
-		<h1 class="text-3xl italic">"This is stupid."</h1>
-		<span>I agree, most of these tools have their own way of embeding things into websites. I just happened to make myself a tool that makes it easier for me, and thought I'd share. Don't expect this to be a big deal, it's not.</span>
-	</h1>
+	<div class="w-10/12 mx-auto md:pl-24 pl-4 text-2xl">
+		<h1 class="pt-8 md:text-7xl text-5xl font-bold text-outline mb-4">Embedabbl</h1>
 
-	<h1 class="md:pl-24 pl-4 pt-8 md:text-7xl text-5xl font-bold text-outline">Usage</h1>
-	<h1 class="md:pl-24 pl-4 pt-8 text-2xl text-outline">Full "documentation" is available on <a href="https://github.com/ZombieNW/Embedabbl" class="italic underline font-bold">GitHub</a>.</h1>
-	<div class="flex justify-center items-center my-24 flex-wrap gap-4">
-		<a href={'#'} on:click={awayFL} class="px-8 mx-8 py-4 bg-[#7092e73f] border-2 border-border_t hover:border-border_t_h rounded-xl">Try AwayFL Core</a>
-		<!-- <a href={'#'} on:click={emuJS} class="px-8 mx-8 py-4 bg-[#7092e73f] border-2 border-border_t hover:border-border_t_h rounded-xl">Try EmuJS Core</a> -->
-		<a href={'#'} on:click={jsDOS} class="px-8 mx-8 py-4 bg-[#7092e73f] border-2 border-border_t hover:border-border_t_h rounded-xl">Try JSDos Core</a>
+		<h1 class="pt-8 md:text-5xl text-4xl font-bold text-outline underline mb-2">About</h1>
+		<h1 class="md:w-2/3">
+			<span>Embedabbl is an easy to use interactive media embeding wrapper to quickly add Flash Games & Emulators to your website without having to read unearthly amounts of documentation.</span><br /><br />
+			<h1 class="text-3xl italic">"This is stupid."</h1>
+			<span>I agree, most of these tools have their own way of embeding things into websites. I just happened to make myself a tool that makes it easier for me, and thought I'd share. Don't expect this to be a big deal, it's not.</span>
+		</h1>
+
+		<h1 class="pt-8 md:text-5xl text-4xl font-bold text-outline underline mb-2">Usage</h1>
+		<h1 class="pt-8 text-outline">Full "documentation" is available on <a href="https://github.com/ZombieNW/Embedabbl" class="italic underline font-bold">GitHub</a>.</h1>
+
+		<h1 class="pt-8 md:text-5xl text-4xl font-bold text-outline underline mb-2">Try It!</h1>
+		<div class="flex justify-center items-center mt-12 mb-24 flex-wrap gap-4">
+			<a href={'#'} on:click={awayFL} class="px-8 mx-8 py-4 bg-[#7092e73f] border-2 border-border_t hover:border-border_t_h rounded-xl">Try AwayFL Core</a>
+			<!-- <a href={'#'} on:click={emuJS} class="px-8 mx-8 py-4 bg-[#7092e73f] border-2 border-border_t hover:border-border_t_h rounded-xl">Try EmuJS Core</a> -->
+			<a href={'#'} on:click={jsDOS} class="px-8 mx-8 py-4 bg-[#7092e73f] border-2 border-border_t hover:border-border_t_h rounded-xl">Try JSDos Core</a>
+		</div>
 	</div>
 	<Footer />
 </body>

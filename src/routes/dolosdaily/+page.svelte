@@ -14,16 +14,20 @@
 </div>
 
 <body class="gradient-bg">
-	<h1 class="md:pl-24 pl-4 pt-8 md:text-7xl text-5xl font-bold text-outline">The What?</h1>
-	<h1 class="md:pl-24 pl-4 text-2xl md:w-2/3">
-		<span>The Dolos Daily is an AI powered fake news website made for educational and demonstrational purposes. It uses LLAMA-Node as well as the Unsplash API to generate articles from a given list of subjects.</span><br /><br />
-		<h1 class="text-3xl italic">Watch The Video</h1>
+	<div class="w-10/12 mx-auto md:pl-24 pl-4 text-2xl">
+		<h1 class="pt-8 md:text-7xl text-5xl font-bold text-outline mb-4">ArchOpen</h1>
+
+		<h1 class="pt-8 md:text-5xl text-4xl font-bold text-outline underline mb-2">About</h1>
+		<h1 class="md:w-2/3">The Dolos Daily is an AI powered fake news website made for educational and demonstrational purposes. It uses LLAMA-Node as well as the Unsplash API to generate articles from a given list of subjects.</h1>
+
+		<h1 class="pt-8 md:text-5xl text-4xl font-bold text-outline underline mb-2">Video</h1>
 		<iframe src="https://www.youtube.com/embed/0DeXNBOuRDo" class="h-96 md:w-1/2 w-full" title="A YouTube video" frameborder="0" allowfullscreen></iframe><br />
-		<a href="https://github.com/ZombieNW/DolosDaily" class="text-3xl italic underline">View The Source Code</a> <br /> <br />
+
+		<h1 class="pt-8 md:text-5xl text-4xl font-bold text-outline underline mb-2">Try It!</h1>
 		<a href="/dddemo/index.html" class="text-3xl italic underline">View The Demo Page</a>
+		<a href="https://github.com/ZombieNW/DolosDaily" class="text-3xl italic underline">View The Source Code</a> <br /> <br />
 		<p>NOTICE: The Demo Page is NOT Designed For Mobile</p>
-		<br />
-	</h1>
+	</div>
 	<Footer />
 </body>
 
