@@ -79,7 +79,7 @@
 			if (this.active) {
 				this.x -= this.speed;
 				this.y += this.speed;
-				if (this.x < -50 || this.y >= height) {
+				if (this.x < -50 || this.y >= height + this.len) {
 					this.reset();
 				} else {
 					bgCtx.lineWidth = this.size;
