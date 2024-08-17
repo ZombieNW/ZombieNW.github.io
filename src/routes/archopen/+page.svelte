@@ -2,6 +2,7 @@
 	import Space from '../../components/Space.svelte';
 	import Footer from '../../components/Footer.svelte';
 	import Header from '../../components/Header.svelte';
+	import DownloadCard from '../../components/DownloadCard.svelte';
 </script>
 
 <title>Retro Tennis - ZombieNW</title>
@@ -31,18 +32,7 @@
 		</h1>
 
 		<h1 class="pt-8 md:text-5xl text-4xl font-bold text-outline underline mb-2">Download</h1>
-		<div class="grid grid-cols-1 md:mx-72 my-8 text-shadow">
-			<div class="flex project-card flex-col items-start gap-3 p-5 m-6 z-1 h-96 shadow-lg border-2 border-border_t hover:border-border_t_h rounded-xl bg-[#3F3F3F4F]">
-				<div class="w-full flex items-center justify-center h-full">
-					<div class="md:w-1/2 pr-4">
-						<p class="text-4xl font-bold py-2">ArchOpen v0.5</p>
-						<p class="text-l pb-6">An easier way to open games with RetroArch on Windows.</p>
-						<a href="https://github.com/ZombieNW/ArchOpen/releases" class="px-8 py-4 bg-bg_t border-2 border-border_t hover:border-border_t_h rounded-xl">Download - Windows</a>
-					</div>
-					<img src="/assets/archopen/gif.gif" alt="Arch Open Banner" class="overflow-hidden mx-auto h-full rounded-xl md:block hidden" />
-				</div>
-			</div>
-		</div>
+		<DownloadCard direction={'left'} title={'ArchOpen v0.5'} desc={'An easier way to open games with RetroArch on Windows.'} link={'https://github.com/ZombieNW/ArchOpen/releases'} img={'/assets/archopen/gif.gif'} downloadtext={'Download - GitHub'} />
 	</div>
 	<Footer />
 </body>

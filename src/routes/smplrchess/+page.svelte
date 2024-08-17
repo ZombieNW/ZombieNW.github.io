@@ -2,6 +2,7 @@
 	import Space from '../../components/Space.svelte';
 	import Footer from '../../components/Footer.svelte';
 	import Header from '../../components/Header.svelte';
+	import DownloadCard from '../../components/DownloadCard.svelte';
 </script>
 
 <title>Retro Tennis - ZombieNW</title>
@@ -34,19 +35,14 @@
 		<h1 class="text-xl font-medium md:w-2/3">Download the Android APK below and install. You made need to enable "Install Apps From Unknown Sources" for it to work.</h1>
 
 		<h1 class="pt-8 md:text-5xl text-4xl font-bold text-outline underline mb-2">Download</h1>
-		<div class="grid grid-cols-1 md:mx-72 my-8 text-shadow">
-			<!-- Retro Tennis 1 -->
-			<div class="flex project-card flex-col items-start gap-3 p-5 m-6 z-1 h-96 shadow-lg border-2 border-border_t hover:border-border_t_h rounded-xl bg-[#3F3F3F4F]">
-				<div class="w-full flex items-center justify-center h-full">
-					<div class="md:w-1/2 pr-4">
-						<p class="text-4xl font-bold py-2">SmplrChess v1.1</p>
-						<p class="text-l pb-6">Works offline, easy to use, customizable, it's just that Smpl.</p>
-						<a href="https://github.com/ZombieNW/SmplrChess/releases/download/1.1/SmplrChess_1.1.0.apk" class="px-8 py-4 bg-bg_t border-2 border-border_t hover:border-border_t_h rounded-xl">Download - APK</a>
-					</div>
-					<img src="./assets/smplrchess/smplrchess_banner.png" alt="Simpler Chess Banner" class="overflow-hidden mx-auto h-full rounded-xl md:block hidden" />
-				</div>
-			</div>
-		</div>
+		<DownloadCard
+			direction={'left'}
+			title={'SmplrChess v1.1'}
+			desc={"Works offline, easy to use, customizable, it's just that Smpl."}
+			link={'https://github.com/ZombieNW/SmplrChess/releases/'}
+			img={'./assets/smplrchess/smplrchess_banner.png'}
+			downloadtext={'Download - GitHub'}
+		/>
 	</div>
 	<Footer />
 </body>
@@ -59,13 +55,5 @@
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
-	}
-
-	.project-card {
-		transition: transform 0.5s ease;
-	}
-
-	.project-card:hover {
-		transform: scale(1.01);
 	}
 </style>
