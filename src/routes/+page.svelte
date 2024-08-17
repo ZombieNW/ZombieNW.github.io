@@ -1,6 +1,7 @@
 <script>
 	import Space from '../components/Space.svelte';
 	import Footer from '../components/Footer.svelte';
+	import ProjectCard from '../components/ProjectCard.svelte';
 </script>
 
 <title>ZombieNW</title>
@@ -18,43 +19,19 @@
 <body class="gradient-bg">
 	<div class="bg-bg_b_t w-full h-16 text-center flex items-center justify-center">
 		<a href="https://www.youtube.com/@ZombieNW" class="md:mx-32 mx-2 text-3xl font-bold hover:underline">Watch <i class="fa-brands fa-youtube md:inline hidden"></i></a>
-		<a href="https://store.zombienw.com/" class="md:mx-32 mx-2 text-3xl font-bold hover:underline">Shop <i class="fa-solid fa-bag-shopping md:inline hidden"></i></a>
 		<a href="/contact" class="md:mx-32 mx-2 text-3xl font-bold hover:underline">Contact <i class="fa-solid fa-address-book md:inline hidden"></i></a>
+		<a href="https://store.zombienw.com/" class="md:mx-32 mx-2 text-3xl font-bold hover:underline">Shop <i class="fa-solid fa-bag-shopping md:inline hidden"></i></a>
 	</div>
 
 	<h1 class="md:pl-24 pl-4 pt-8 md:text-7xl text-5xl font-bold text-outline">The Projects</h1>
 
 	<div class="grid md:grid-cols-3 grid-cols-1 md:mx-24 my-8 text-shadow">
-		<a href="/retro" class="flex project-card flex-col items-start gap-3 p-5 m-6 z-1 h-64 shadow-lg hover:underline border-2 border-border_t hover:border-border_t_h rounded-xl bg-[#46a8394f]">
-			<p class="text-4xl font-bold">Retro Tennis</p>
-			<p class="-mt-3 text-l">Wii Homebrew Pong Clones</p>
-			<img src="./assets/retro/retrotennis_logo.png" alt="Retro Tennis Logo" class="overflow-hidden mx-auto" />
-		</a>
-		<a href="/smplrchess" class="flex project-card flex-col items-start gap-3 p-5 m-6 z-1 h-64 shadow-lg hover:underline border-2 border-border_t hover:border-border_t_h rounded-xl bg-[#832dd44f]">
-			<p class="text-4xl font-bold">Smplr Chess</p>
-			<p class="-mt-3 text-l">A decluttered chess app for Android.</p>
-			<img src="./assets/smplrchess/smplrchess_logo.png" alt="Retro Tennis Logo" class="overflow-hidden mx-auto" />
-		</a>
-		<a href="/embedabbl" class="flex project-card flex-col items-start gap-3 p-5 m-6 z-1 h-64 shadow-lg hover:underline border-2 border-border_t hover:border-border_t_h rounded-xl bg-[#1c5a974f]">
-			<p class="text-4xl font-bold">Embedabbl</p>
-			<p class="-mt-3 text-l">Easy to use media wrapper.</p>
-			<img src="./assets/embedabbl/embedabbl_logo.png" alt="Retro Tennis Logo" class="overflow-hidden mx-auto" />
-		</a>
-		<a href="/archopen" class="flex project-card flex-col items-start gap-3 p-5 m-6 z-1 h-64 shadow-lg hover:underline border-2 border-border_t hover:border-border_t_h rounded-xl bg-[#af21664f]">
-			<p class="text-4xl font-bold">ArchOpen</p>
-			<p class="-mt-3 text-l">File association manager for RetroArch on Windows.</p>
-			<img src="./assets/archopen/archopen_logo.png" alt="Retro Tennis Logo" class="overflow-hidden mx-auto" />
-		</a>
-		<a href="/dolosdaily" class="flex project-card flex-col items-start gap-3 p-5 m-6 z-1 h-64 shadow-lg hover:underline border-2 border-border_t hover:border-border_t_h rounded-xl bg-[#FFFFFF4F]">
-			<p class="text-4xl font-bold">The Dolos Daily</p>
-			<p class="-mt-3 text-l">An AI powered fake news website.</p>
-			<img src="/assets/dolosdaily/dolosdaily_logo.png" alt="Retro Tennis Logo" class="overflow-hidden mx-auto" />
-		</a>
-		<a href={'#'} class="flex project-card flex-col items-start gap-3 p-5 m-6 z-1 h-64 shadow-lg hover:underline border-2 border-border_t hover:border-border_t_h rounded-xl bg-[#0000004F]">
-			<p class="text-4xl font-bold">Coming Soon</p>
-			<p class="-mt-3 text-l">The next big thing is always coming.</p>
-			<img src="/assets/index/comingsoon_logo.png" alt="Retro Tennis Logo" class="overflow-hidden mx-auto" />
-		</a>
+		<ProjectCard link="/retro" title="Retro Tennis" desc="Wii Homebrew Pong Clones" img="./assets/retro/retrotennis_logo.png" color="46a8394f" />
+		<ProjectCard link="/smplrchess" title="Smplr Chess" desc="A decluttered chess app for Android" img="./assets/smplrchess/smplrchess_logo.png" color="832dd44f" />
+		<ProjectCard link="/embedabbl" title="Embedabbl" desc="Easy to use media wrapper" img="./assets/embedabbl/embedabbl_logo.png" color="1c5a974f" />
+		<ProjectCard link="/archopen" title="ArchOpen" desc="File association manager for RetroArch on Windows" img="./assets/archopen/archopen_logo.png" color="af21664f" />
+		<ProjectCard link="/dolosdaily" title="The Dolos Daily" desc="An AI powered fake news website" img="./assets/dolosdaily/dolosdaily_logo.png" color="FFFFFF4F" />
+		<ProjectCard link="#" title="Coming Soon" desc="The next big thing is always coming." img="./assets/index/comingsoon_logo.png" color="0000004F" />
 	</div>
 	<hr class="w-1/4 mx-auto" />
 
@@ -82,13 +59,8 @@
 		background-size: cover;
 	}
 
-	.profile,
-	.project-card {
+	.profile {
 		transition: transform 0.5s ease;
-	}
-
-	.project-card:hover {
-		transform: scale(1.05);
 	}
 
 	.profile:hover {
