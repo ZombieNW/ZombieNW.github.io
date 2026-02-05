@@ -45,10 +45,11 @@
 			link="/calcbattles"
 		/>
 		<ProjectCard
-			title="Coming Soon"
-			description="The next big thing is always coming."
+			title="More on Github"
+			description="Find older or unfinished projects on my GitHub profile."
 			color="black"
-			img="project_icons/question_mark.png"
+			img="https://img.icons8.com/ios11/512/FFFFFF/github.png"
+			link="https://github.com/ZombieNW"
 		/>
 	</div>
 	<h1 class="text-6xl font-bold">Videos</h1>
