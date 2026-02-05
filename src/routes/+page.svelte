@@ -13,31 +13,42 @@
 			title="ArchOpen"
 			description="File association manager for RetroArch on Windows. Open games simpler and faster."
 			color="blue"
+			img="https://github.com/ZombieNW/ArchOpen/raw/main/assets/icon.png"
+			link="/archopen"
 		/>
 		<ProjectCard
 			title="Poker Machine"
 			description="Video poker cabinet software made in Godot. Play it online!"
 			color="green"
+			img="https://github.com/ZombieNW/PokerMachine/raw/main/icon.png"
+			link="/poker"
 		/>
 		<ProjectCard
 			title="Embedabbl"
 			description="Quickly embed roms and other files into your website."
 			color="purple"
+			img="https://github.com/ZombieNW/Embedabbl/raw/main/static/icon.png"
+			link="/embedabbl"
 		/>
 		<ProjectCard
 			title="Dolos Daily"
 			description="Proof-of-Concept AI generated fake news website."
 			color="white"
+			img="https://github.com/ZombieNW/DolosDaily/raw/main/static/logoWhite.png"
+			link="/dolosdaily"
 		/>
 		<ProjectCard
 			title="CalcBattles"
 			description="Fast paced Battle RPG for learning Calculus."
 			color="red"
+			img="https://github.com/ZombieNW/CalcBattles/raw/main/static/assets/title.png"
+			link="/calcbattles"
 		/>
 		<ProjectCard
 			title="Coming Soon"
 			description="The next big thing is always coming."
 			color="black"
+			img="project_icons/question_mark.png"
 		/>
 	</div>
 	<h1 class="text-6xl font-bold">Videos</h1>

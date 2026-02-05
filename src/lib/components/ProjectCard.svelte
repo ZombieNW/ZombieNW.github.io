@@ -1,7 +1,9 @@
 <script>
 	export var title = '';
 	export var description = '';
+	export var img = '';
 	export var color = '';
+	export var link = '';
 
 	const colorMap = {
 		green: { bg: 'rgb(34 197 94 / 0.2)', border: 'rgb(34 197 94 / 0.3)' },
@@ -14,10 +16,15 @@
 	};
 </script>
 
-<div
-	class="flex flex-col border-2 p-4 rounded-xl aspect-video hover:scale-[103%] transition-all duration-300"
+<a
+	href={link}
+	class="flex flex-col border-2 p-4 rounded-xl aspect-video hover:scale-[103%] transition-all
+	duration-300 overflow-hidden"
 	style="background-color: {colorMap[color].bg}; border-color: {colorMap[color].border}"
 >
-	<h1 class="text-3xl font-bold">{title}</h1>
-	<p>{description}</p>
-</div>
+	<h1 class="text-4xl font-bold">{title}</h1>
+	<p class="text-gray-300">{description}</p>
+	<div class="flex-1 min-h-0 flex items-center justify-center p-2">
+		<img src={img} alt="{title} project logo" class="max-h-full object-contain" />
+	</div>
+</a>
