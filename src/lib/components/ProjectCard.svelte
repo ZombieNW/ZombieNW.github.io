@@ -15,7 +15,7 @@
 </script>
 
 <div
-	class="flex flex-col border-2 p-4 rounded-xl aspect-video"
+	class="flex flex-col border-2 p-4 rounded-xl aspect-video hover:scale-[103%] transition-all duration-300"
 	style="background-color: {colorMap[color].bg}; border-color: {colorMap[color].border}"
 >
 	<h1 class="text-3xl font-bold">{title}</h1>
