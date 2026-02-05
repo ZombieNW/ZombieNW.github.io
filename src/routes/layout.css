@@ -1,1 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
 @import 'tailwindcss';
+
+html,
+body {
+	width: 100%;
+	margin: 0;
+
+	font-family: 'Rubik', sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+
+	color: theme(--color-gray-50);
+	background-color: theme(--color-gray-950);
+
+	overflow-x: hidden;
+}
+
+.text-outline {
+	text-shadow:
+		3px 3px 0#000,
+		-3px 3px 0 #000,
+		-3px -3px 0 #000,
+		0px 3px 0 #000,
+		0px -3px 0 #000,
+		3px 0px 0 #000,
+		-3px 0px 0 #000,
+		3px -3px 0 #000;
+}
