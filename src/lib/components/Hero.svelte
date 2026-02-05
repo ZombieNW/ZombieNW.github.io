@@ -14,22 +14,26 @@
 	</div>
 
 	<div
-		class="relative z-10 flex h-full w-full flex-col items-center justify-center md:flex-row md:px-12"
+		class="relative z-10 flex h-full w-full flex-col items-center justify-center px-4 md:flex-row md:px-12"
 	>
-		<div class="md:h-2/3 md:text-left text-center">
-			<h2 class="text-3xl font-black text-outline leading-20 md:text-[6rem] drop-shadow-2xl">
+		<div class="text-center md:h-2/3 md:text-left">
+			<h2
+				class="text-3xl font-black text-outline leading-tight md:text-[6rem] md:leading-20 drop-shadow-2xl"
+			>
 				Hi, It's Me,
 			</h2>
 			<h1 class="text-5xl font-black text-outline md:text-[10rem] drop-shadow-2xl">ZombieNW</h1>
-			<h3 class="text-2xl font-bold text-outline leading-4 md:text-[2.5rem] drop-shadow-lg">
+			<h3
+				class="mt-2 text-xl font-bold text-outline leading-tight md:mt-0 md:text-[2.5rem] md:leading-4 drop-shadow-lg"
+			>
 				Programmer, YouTuber, Mediocre Joke Maker
 			</h3>
 		</div>
 
-		<div class="flex justify-center md:h-2/3 md:flex-1">
+		<div class="mt-6 flex justify-center md:mt-0 md:h-2/3 md:flex-1">
 			<img
 				src="/logo.png"
-				class="aspect-square h-[15vw] w-[15vw] min-w-[150px] drop-shadow-[0_0_15px_rgba(168,85,247,0.4)]"
+				class="aspect-square h-[30vw] w-[30vw] min-h-[150px] min-w-[150px] max-h-[200px] max-w-[200px] md:h-[15vw] md:w-[15vw] md:max-h-none md:max-w-none drop-shadow-[0_0_15px_rgba(168,85,247,0.4)]"
 				alt="A yellow star with a blue sword with a brown hilt going through it."
 			/>
 		</div>
