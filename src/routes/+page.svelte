@@ -10,27 +10,42 @@
 	<h1 class="text-6xl font-bold">Projects</h1>
 	<div class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 m-8 mb-20">
 		<ProjectCard
-			title="Project 1"
-			description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae."
+			title="ArchOpen"
+			description="File association manager for RetroArch on Windows. Open games simpler and faster."
+			color="blue"
+		/>
+		<ProjectCard
+			title="Poker Machine"
+			description="Video poker cabinet software made in Godot. Play it online!"
 			color="green"
 		/>
 		<ProjectCard
-			title="Project 1"
-			description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae."
+			title="Embedabbl"
+			description="Quickly embed roms and other files into your website."
+			color="purple"
+		/>
+		<ProjectCard
+			title="Dolos Daily"
+			description="Proof-of-Concept AI generated fake news website."
+			color="white"
+		/>
+		<ProjectCard
+			title="CalcBattles"
+			description="Fast paced Battle RPG for learning Calculus."
 			color="red"
 		/>
 		<ProjectCard
-			title="Project 1"
-			description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae."
-			color="blue"
+			title="Coming Soon"
+			description="The next big thing is always coming."
+			color="black"
 		/>
 	</div>
 	<h1 class="text-6xl font-bold">Videos</h1>
 
 	<div class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 m-8 mb-20">
-		<YouTubeVideo videoID="M7lc1UVf-VE" />
-		<YouTubeVideo videoID="M7lc1UVf-VE" />
-		<YouTubeVideo videoID="M7lc1UVf-VE" />
+		<YouTubeVideo videoID="0DeXNBOuRDo" />
+		<YouTubeVideo videoID="0DeXNBOuRDo" />
+		<YouTubeVideo videoID="t5uUji3DW04" />
 	</div>
 
 	<h1 class="text-6xl font-bold">About Me</h1>

@@ -26,7 +26,7 @@
 			<h3
 				class="mt-2 text-xl font-bold text-outline leading-tight md:mt-0 md:text-[2.5rem] md:leading-4 drop-shadow-lg"
 			>
-				Programmer, YouTuber, Mediocre Joke Maker
+				Programmer, YouTuber, and Creator of Things
 			</h3>
 		</div>
 

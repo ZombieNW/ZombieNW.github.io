@@ -9,7 +9,8 @@
 		blue: { bg: 'rgb(59 130 246 / 0.2)', border: 'rgb(59 130 246 / 0.3)' },
 		amber: { bg: 'rgb(245 158 11 / 0.2)', border: 'rgb(245 158 11 / 0.3)' },
 		white: { bg: 'rgb(255 255 255 / 0.2)', border: 'rgb(255 255 255 / 0.3)' },
-		black: { bg: 'rgb(0 0 0 / 0.2)', border: 'rgb(0 0 0 / 0.3)' }
+		black: { bg: 'rgb(0 0 0 / 0.2)', border: 'rgb(128 128 128 / 0.3)' },
+		purple: { bg: 'rgb(168 85 247 / 0.2)', border: 'rgb(168 85 247 / 0.3)' }
 	};
 </script>
 
