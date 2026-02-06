@@ -6,6 +6,10 @@
 	import Device from 'svelte-device-info';
 </script>
 
+<svelte:head>
+	<title>Poker Machine - ZombieNW</title>
+</svelte:head>
+
 <Header />
 
 <ProjectHero img="./assets/poker/icon.png" color="green" />

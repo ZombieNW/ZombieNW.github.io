@@ -3,6 +3,10 @@
 	import Header from '$lib/components/Header.svelte';
 </script>
 
+<svelte:head>
+	<title>ArchOpen - ZombieNW</title>
+</svelte:head>
+
 <Header />
 
 <ProjectHero
