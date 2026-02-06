@@ -18,7 +18,7 @@
 
 <a
 	href={link}
-	class="flex flex-col border-2 p-4 rounded-xl aspect-video hover:scale-[103%] transition-all
+	class="flex flex-col border-2 p-4 rounded-xl aspect-square md:aspect-video hover:scale-[103%] transition-all
 	duration-300 overflow-hidden"
 	style="background-color: {colorMap[color].bg}; border-color: {colorMap[color].border}"
 >
