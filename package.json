@@ -21,5 +21,10 @@
 		"svelte": "^5.43.8",
 		"tailwindcss": "^4.1.17",
 		"vite": "^7.2.2"
+	},
+	"dependencies": {
+		"@fortawesome/free-brands-svg-icons": "^7.1.0",
+		"@fortawesome/free-solid-svg-icons": "^7.1.0",
+		"svelte-fa": "^4.0.4"
 	}
 }

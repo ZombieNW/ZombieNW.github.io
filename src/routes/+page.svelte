@@ -2,9 +2,12 @@
 	import Hero from '$lib/components/Hero.svelte';
 	import YouTubeVideo from '$lib/components/YouTubeVideo.svelte';
 	import ProjectCard from '$lib/components/ProjectCard.svelte';
+	import IconLinks from '$lib/components/IconLinks.svelte';
 </script>
 
 <Hero />
+
+<IconLinks />
 
 <div class="mx-4 md:mx-12 overflow-y-hidden">
 	<h1 class="text-6xl font-bold">Projects</h1>
