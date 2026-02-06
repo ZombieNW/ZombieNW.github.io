@@ -61,7 +61,7 @@
 	</div>
 
 	<h1 class="text-6xl font-bold">About Me</h1>
-	<div class="w-full md:flex items-center justify-center mb-20">
+	<div class="w-full md:flex items-center justify-center">
 		<img
 			src="logo.png"
 			class="w-2/3 md:w-1/3 mx-auto md:mx-0"
@@ -76,9 +76,5 @@
 				projects and passions that I cycle between.
 			</p>
 		</div>
-	</div>
-
-	<div class="w-full h-12 text-center">
-		Made with ❤️ by ZombieNW {new Date().getFullYear()}
 	</div>
 </div>
