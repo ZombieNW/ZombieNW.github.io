@@ -1,6 +1,9 @@
 <script>
 	import ProjectHero from '$lib/components/ProjectHero.svelte';
+	import Header from '$lib/components/Header.svelte';
 </script>
+
+<Header />
 
 <ProjectHero
 	title="ArchOpen"
