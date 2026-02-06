@@ -59,16 +59,16 @@
 
 	<div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 m-8 mb-20">
 		<YouTubeVideo videoID="0DeXNBOuRDo" />
-		<YouTubeVideo videoID="0DeXNBOuRDo" />
+		<YouTubeVideo videoID="dTg56eE8_TI" />
 		<YouTubeVideo videoID="t5uUji3DW04" />
 	</div>
 
 	<h1 class="text-6xl font-bold">About Me</h1>
-	<div class="w-full md:flex items-center justify-center my-12">
-		<div class="flex justify-center items-center w-1/2">
+	<div class="w-full md:flex items-center justify-center">
+		<div class="flex justify-center items-center md:mx-12 md:w-1/4 w-full">
 			<img
-				src="logo.png"
-				class="w-2/3 md:w-1/3 mx-auto md:mx-0"
+				src="profile.png"
+				class="w-full mx-auto md:mx-0 -rotate-5 hover:rotate-5 transition-all duration-300"
 				alt="ZombieNW's avatar, also known as a Blob"
 			/>
 		</div>
@@ -76,7 +76,7 @@
 			<h1 class="md:text-6xl text-4xl font-extrabold text-center md:text-left">
 				Hi, it's me, ZombieNW!
 			</h1>
-			<p class="text-2xl indent-8 mt-2">
+			<p class="text-2xl indent-8 mt-2 text-gray-300">
 				I'm a computer science student always working on <i>something</i>. I've been programming,
 				making YouTube videos, and playing piano since I was about 10 years old. I still love doing
 				all these things! <br /> <br />
