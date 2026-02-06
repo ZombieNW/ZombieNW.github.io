@@ -9,11 +9,7 @@
 
 <Header />
 
-<ProjectHero
-	title="ArchOpen"
-	img="https://github.com/ZombieNW/ArchOpen/raw/main/assets/icon.png"
-	color="blue"
-/>
+<ProjectHero title="ArchOpen" img="./assets/archopen/icon.png" color="blue" />
 
 <div class="mx-4 md:mx-12 overflow-y-hidden">
 	<h1 class="text-6xl font-bold">ArchOpen</h1>
