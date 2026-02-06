@@ -28,7 +28,13 @@
 			<p class="text-lg">Sorry, this game is not available on mobile.</p>
 		</div>
 	{:else}
-		<h2 class="text-3xl font-bold mt-6 mb-2 text-gray-100">Play Online</h2>
+		<div class="mt-6 mb-2">
+			<a
+				href="https://poker.zombienw.com"
+				class="text-3xl font-bold text-gray-100 hover:text-blue-300 transition-colors duration-300"
+				>Play Online</a
+			>
+		</div>
 		<div class="w-1/2 mx-auto">
 			<PlayIFrame />
 			<h1 class="mt-4 text-2xl font-bold">Controls</h1>
@@ -42,4 +48,28 @@
 			</ul>
 		</div>
 	{/if}
+
+	<h2 class="text-3xl font-bold mt-6 mb-2 text-gray-100">Credits</h2>
+	<p class="text-lg md:w-2/3 text-gray-300 flex flex-col">
+		<a
+			href="https://opengameart.org/content/pixel-art-slot-machine"
+			class="hover:text-blue-300 transition-colors duration-300"
+			>Slot Machine Symbols by Vircon32; CC BY 4.0</a
+		>
+		<a
+			href="https://kenney.nl/assets/playing-cards-pack"
+			class="hover:text-blue-300 transition-colors duration-300"
+			>Playing Card Textures by Kenney; CC0</a
+		>
+		<a
+			href="https://github.com/ZombieNW/PokerMachine"
+			class="hover:text-blue-300 transition-colors duration-300"
+			>Soundtrack by ZombieNW; CC BY 4.0</a
+		>
+		<a
+			href="https://github.com/ZombieNW/PokerMachine"
+			class="hover:text-blue-300 transition-colors duration-300 mt-2"
+			>Additional Textures & Programming by ZombieNW</a
+		>
+	</p>
 </div>
