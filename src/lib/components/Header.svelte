@@ -1,8 +1,8 @@
-<div class="h-12 fixed top-0 w-full z-50">
+<div class="h-16 fixed top-0 w-full z-50">
 	<div class="flex h-full items-center md:justify-between px-4 justify-center">
-		<a href="/" class="flex items-center gap-2">
-			<img src="/favicon.png" alt="ZombieNW Logo" class="h-8" />
-			<h1 class="font-bold">ZombieNW</h1>
+		<a href="/" class="flex items-center gap-2 hover:scale-105 transition-all duration-300">
+			<img src="/favicon.png" alt="ZombieNW Logo" class="h-10" />
+			<h1 class="font-bold text-lg text-shadow-lg">ZombieNW</h1>
 		</a>
 	</div>
 </div>
