@@ -30,7 +30,7 @@
 
 	<div class="relative z-10 flex h-full w-full flex-col items-center justify-center px-4 md:px-12">
 		{#if title}
-			<img src={img} alt="{title} project logo" class="max-h-2/3 object-contain" />
+			<img src={img} alt="{title} project logo" class="max-h-2/3 object-contain md:-mt-24" />
 			<h1 class="text-6xl font-black text-outline md:text-7xl drop-shadow-2xl -mt-12">
 				{title}
 			</h1>
