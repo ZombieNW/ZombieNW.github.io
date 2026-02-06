@@ -28,9 +28,7 @@
 		<div class="absolute inset-0 bg-linear-to-t from-gray-950 via-transparent to-transparent"></div>
 	</div>
 
-	<div
-		class="relative z-10 flex h-full w-full flex-col items-center justify-center md:justify-start px-4 md:px-12"
-	>
+	<div class="relative z-10 flex h-full w-full flex-col items-center justify-center px-4 md:px-12">
 		{#if title}
 			<img src={img} alt="{title} project logo" class="max-h-2/3 object-contain" />
 			<h1 class="text-6xl font-black text-outline md:text-7xl drop-shadow-2xl -mt-12">
