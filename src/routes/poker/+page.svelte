@@ -8,7 +8,7 @@
 
 <Header />
 
-<ProjectHero img="https://github.com/ZombieNW/PokerMachine/raw/main/icon.png" color="green" />
+<ProjectHero img="./assets/poker/icon.png" color="green" />
 
 <div class="mx-4 md:mx-12 overflow-y-hidden">
 	<h1 class="text-6xl font-bold">Poker Machine</h1>
