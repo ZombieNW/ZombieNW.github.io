@@ -12,7 +12,7 @@
 	<h1 class="text-6xl font-bold">ArchOpen</h1>
 
 	<h2 class="text-3xl font-bold mt-6 mb-2 text-gray-100">About</h2>
-	<p class="text-lg w-2/3 text-gray-200">
+	<p class="text-lg md:w-2/3 text-gray-300">
 		Has this ever happened to you? You want to open a rom from file explorer, but emulators want a
 		bajillion cli parameters? Well, ArchOpen is here for you! It's a simple program that allows you
 		to open roms from file explorer by mapping a list of rom file extensions to their respective
@@ -20,10 +20,10 @@
 	</p>
 
 	<h2 class="text-3xl font-bold mt-6 mb-2 text-gray-100">Setup Instructions</h2>
-	<ul class="list-disc list-inside text-lg w-2/3 text-gray-200">
+	<ul class="list-disc list-inside text-lg md:w-2/3 text-gray-300">
 		<li>Download ArchOpen below.</li>
 		<li>Extract the zip file.</li>
-		<li class="indent-8">Put the program in a safe place.</li>
+		<li class="md:indent-8 indent-4">Put the program in a safe place.</li>
 		<li>
 			Create a config file with <code>archopen.exe --generate-config</code>.
 		</li>
