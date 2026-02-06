@@ -11,7 +11,7 @@
 
 <div class="mx-4 md:mx-12 overflow-y-hidden">
 	<h1 class="text-6xl font-bold">Projects</h1>
-	<div class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 m-8 mb-20">
+	<div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 m-8 mb-20">
 		<ProjectCard
 			title="ArchOpen"
 			description="File association manager for RetroArch on Windows. Open games simpler and faster."
@@ -57,26 +57,34 @@
 	</div>
 	<h1 class="text-6xl font-bold">Videos</h1>
 
-	<div class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 m-8 mb-20">
+	<div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 m-8 mb-20">
 		<YouTubeVideo videoID="0DeXNBOuRDo" />
 		<YouTubeVideo videoID="0DeXNBOuRDo" />
 		<YouTubeVideo videoID="t5uUji3DW04" />
 	</div>
 
 	<h1 class="text-6xl font-bold">About Me</h1>
-	<div class="w-full md:flex items-center justify-center">
-		<img
-			src="logo.png"
-			class="w-2/3 md:w-1/3 mx-auto md:mx-0"
-			alt="ZombieNW's avatar, also known as a Blob"
-		/>
+	<div class="w-full md:flex items-center justify-center my-12">
+		<div class="flex justify-center items-center w-1/2">
+			<img
+				src="logo.png"
+				class="w-2/3 md:w-1/3 mx-auto md:mx-0"
+				alt="ZombieNW's avatar, also known as a Blob"
+			/>
+		</div>
 		<div class="md:w-1/2 md:m-0 m-4">
 			<h1 class="md:text-6xl text-4xl font-extrabold text-center md:text-left">
 				Hi, it's me, ZombieNW!
 			</h1>
 			<p class="text-2xl indent-8 mt-2">
-				I'm a computer science student always working on <i>something</i>. I have tons of side
-				projects and passions that I cycle between.
+				I'm a computer science student always working on <i>something</i>. I've been programming,
+				making YouTube videos, and playing piano since I was about 10 years old. I still love doing
+				all these things! <br /> <br />
+				Contact me at
+				<a
+					href="mailto:zombienw@gmail.com"
+					class="hover:text-blue-300 transition-colors duration-300">zombienw@gmail.com</a
+				>
 			</p>
 		</div>
 	</div>
