@@ -1,9 +1,10 @@
 <script>
-	export var title = '';
-	export var description = '';
-	export var img = '';
-	export var color = '';
-	export var link = '';
+	export var title = 'Title';
+	export var description = 'Description';
+	export var img = 'https://placehold.co/600x400';
+	export var year = '';
+	export var color = 'white';
+	export var link = '#';
 
 	const colorMap = {
 		green: { bg: 'rgb(34 197 94 / 0.2)', border: 'rgb(34 197 94 / 0.3)' },
@@ -22,7 +23,17 @@
 	duration-300 overflow-hidden"
 	style="background-color: {colorMap[color].bg}; border-color: {colorMap[color].border}"
 >
-	<h1 class="text-4xl font-bold">{title}</h1>
+	<div class="flex">
+		<h1 class="text-4xl font-bold">{title}</h1>
+		{#if year}
+			<p
+				class="ml-auto text-gray-300 border-2 rounded-xl py-2 px-4 md:block hidden"
+				style="border-color: {colorMap[color].border};"
+			>
+				{year}
+			</p>
+		{/if}
+	</div>
 	<p class="text-gray-300">{description}</p>
 	<div class="flex-1 min-h-0 flex items-center justify-center p-2">
 		<img src={img} alt="{title} project logo" class="max-h-full object-contain" />

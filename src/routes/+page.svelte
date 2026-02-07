@@ -34,25 +34,20 @@
 			link="/embedabbl"
 		/>
 		<ProjectCard
-			title="Dolos Daily"
-			description="Proof-of-Concept AI generated fake news website."
-			color="white"
-			img="./assets/dolosdaily/logo.png"
-			link="/dolosdaily"
-		/>
-		<ProjectCard
 			title="CalcBattles"
 			description="Fast paced Battle RPG for learning Calculus."
 			color="red"
 			img="./assets/calcbattles/logo.png"
 			link="/calcbattles"
+			year="2025"
 		/>
 		<ProjectCard
-			title="Retro Tennis"
-			description="Wii Homebrew Games made with DevKitPro and GRRLIB."
-			color="green"
-			img="./assets/retro/logo.png"
-			link="/retro"
+			title="Dolos Daily"
+			description="Proof-of-Concept AI generated fake news website."
+			color="white"
+			img="./assets/dolosdaily/logo.png"
+			link="/dolosdaily"
+			year="2024"
 		/>
 		<ProjectCard
 			title="SmplrChess"
@@ -60,6 +55,15 @@
 			color="purple"
 			img="./assets/smplrchess/logo.png"
 			link="/smplrchess"
+			year="2022"
+		/>
+		<ProjectCard
+			title="Retro Tennis"
+			description="Wii Homebrew Games made with DevKitPro and GRRLIB."
+			color="green"
+			img="./assets/retro/logo.png"
+			link="/retro"
+			year="2021"
 		/>
 		<ProjectCard
 			title="More on Github"
