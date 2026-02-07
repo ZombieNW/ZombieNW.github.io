@@ -7,6 +7,7 @@
 <svelte:head>
 	<link rel="icon" href="/favicon.png" />
 	<title>ZombieNW</title>
+	<base target="_blank" />
 </svelte:head>
 
 {@render children()}
