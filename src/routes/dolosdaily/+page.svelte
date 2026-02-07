@@ -2,6 +2,7 @@
 	import ProjectHero from '$lib/components/ProjectHero.svelte';
 	import Header from '$lib/components/Header.svelte';
 	import YouTubeVideo from '$lib/components/YouTubeVideo.svelte';
+	import Button from '$lib/components/Button.svelte';
 </script>
 
 <svelte:head>
@@ -24,10 +25,7 @@
 	</p>
 
 	<h2 class="text-3xl font-bold mt-6 mb-2 text-gray-100">Website</h2>
-	<a
-		href="https://dd.zombienw.com/"
-		class="underline hover:text-blue-300 transition-colors duration-300">dd.zombienw.com</a
-	>
+	<Button href="https://dolosdaily.zombienw.com/" text="Dolos Daily Website" color="white" />
 
 	<h2 class="text-3xl font-bold mt-6 mb-2 text-gray-100">Video</h2>
 	<div class="w-1/3 m-4">

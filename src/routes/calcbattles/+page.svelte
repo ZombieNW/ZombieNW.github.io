@@ -2,6 +2,7 @@
 	import ProjectHero from '$lib/components/ProjectHero.svelte';
 	import Header from '$lib/components/Header.svelte';
 	import YouTubeVideo from '$lib/components/YouTubeVideo.svelte';
+	import DownloadCard from '$lib/components/DownloadCard.svelte';
 </script>
 
 <svelte:head>
@@ -22,9 +23,13 @@
 	</p>
 
 	<h2 class="text-3xl font-bold mt-6 mb-2 text-gray-100">Download</h2>
-	<p class="text-gray-300">Android Only</p>
-	<a
-		href="https://github.com/ZombieNW/CalcBattles/releases"
-		class="underline hover:text-blue-300 transition-colors duration-300">Github Releases</a
-	>
+	<div class="md:w-2/3 mx-auto">
+		<DownloadCard
+			title="CalcBattles"
+			desc="Download from Github Releases - Android Only"
+			link="https://github.com/ZombieNW/CalcBattles/releases"
+			img="./assets/calcbattles/logo.png"
+			color="red"
+		/>
+	</div>
 </div>

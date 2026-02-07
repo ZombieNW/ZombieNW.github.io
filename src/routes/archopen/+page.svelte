@@ -1,6 +1,7 @@
 <script>
 	import ProjectHero from '$lib/components/ProjectHero.svelte';
 	import Header from '$lib/components/Header.svelte';
+	import DownloadCard from '$lib/components/DownloadCard.svelte';
 </script>
 
 <svelte:head>
@@ -39,4 +40,15 @@
 		</li>
 		<li>Click "OK" to save the file association.</li>
 	</ul>
+
+	<h2 class="text-3xl font-bold mt-6 mb-2 text-gray-100">Download</h2>
+	<div class="md:w-2/3 mx-auto">
+		<DownloadCard
+			title="ArchOpen"
+			desc="Download from Github Releases"
+			link="https://github.com/ZombieNW/ArchOpen/releases/latest"
+			img="./assets/archopen/gif.gif"
+			color="blue"
+		/>
+	</div>
 </div>

@@ -1,6 +1,7 @@
 <script>
 	import ProjectHero from '$lib/components/ProjectHero.svelte';
 	import Header from '$lib/components/Header.svelte';
+	import Button from '$lib/components/Button.svelte';
 </script>
 
 <svelte:head>
@@ -24,9 +25,6 @@
 		things easier for myself, and I shared it.
 	</p>
 
-	<h2 class="text-3xl font-bold mt-6 mb-2 text-gray-100">Instructions & Examples on Embedabbl</h2>
-	<a
-		href="https://embedabbl.zombienw.com/"
-		class="underline hover:text-blue-300 transition-colors duration-300">embedabbl.zombienw.com</a
-	>
+	<h2 class="text-3xl font-bold mt-6 mb-2 text-gray-100">Website</h2>
+	<Button href="https://embedabbl.zombienw.com/" text="Embedabbl Website" color="purple" />
 </div>
