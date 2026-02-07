@@ -48,6 +48,13 @@
 			link="/calcbattles"
 		/>
 		<ProjectCard
+			title="Retro Tennis"
+			description="Wii Homebrew Games made with DevKitPro and GRRLIB."
+			color="green"
+			img="./assets/retro/logo.png"
+			link="/retro"
+		/>
+		<ProjectCard
 			title="More on Github"
 			description="Find older or unfinished projects on my GitHub profile."
 			color="black"
