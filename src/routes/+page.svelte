@@ -55,6 +55,13 @@
 			link="/retro"
 		/>
 		<ProjectCard
+			title="SmplrChess"
+			description="A simple chess app for Android."
+			color="purple"
+			img="./assets/smplrchess/logo.png"
+			link="/smplrchess"
+		/>
+		<ProjectCard
 			title="More on Github"
 			description="Find older or unfinished projects on my GitHub profile."
 			color="black"
