@@ -11,6 +11,6 @@
 
 {@render children()}
 
-<div class="w-full h-12 text-center mt-8">
+<div class="w-full h-12 text-center mt-8 z-20 relative">
 	Made with ❤️ by ZombieNW {new Date().getFullYear()}
 </div>
