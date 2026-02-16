@@ -25,7 +25,7 @@
 	</p>
 
 	<h2 class="text-3xl font-bold mt-6 mb-2 text-gray-100">Website</h2>
-	<Button href="https://dolosdaily.zombienw.com/" text="Dolos Daily Website" color="white" />
+	<Button href="https://dd.zombienw.com/" text="Dolos Daily Website" color="white" />
 
 	<h2 class="text-3xl font-bold mt-6 mb-2 text-gray-100">Video</h2>
 	<div class="w-1/3 m-4">
