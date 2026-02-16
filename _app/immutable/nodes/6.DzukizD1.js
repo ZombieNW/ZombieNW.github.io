@@ -1,1 +1,0 @@
-import{f as o,a}from"../chunks/B64K7OJe.js";import"../chunks/Y1ao9Md1.js";var r=o('<head><meta http-equiv="refresh" content="0;URL=https://zombienw.com"/></head>');function n(t){var e=r();a(t,e)}export{n as component};
