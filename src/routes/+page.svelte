@@ -5,6 +5,10 @@
 	import IconLinks from '$lib/components/IconLinks.svelte';
 </script>
 
+<svelte:head>
+	<title>ZombieNW</title>
+</svelte:head>
+
 <Hero />
 
 <IconLinks />
