@@ -1,0 +1,1 @@
+import{x as u,i as o,y as _,j as t,z as g,C as p,A as a,w as l,v as d,B as v}from"./CvDu_0k1.js";function E(n,r){let s=null,y=t;var i;if(t){s=v;for(var e=g(document.head);e!==null&&(e.nodeType!==p||e.data!==n);)e=a(e);if(e===null)l(!1);else{var f=a(e);e.remove(),d(f)}}t||(i=document.head.appendChild(u()));try{o(()=>r(i),_)}finally{y&&(l(!0),d(s))}}export{E as h};
