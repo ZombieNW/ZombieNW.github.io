@@ -1,7 +1,6 @@
 <script>
 	import Space from '$lib/components/Space.svelte';
 	import Header from '$lib/components/Header.svelte';
-	import { page } from '$app/stores';
 </script>
 
 <Header />
@@ -14,7 +13,7 @@
 	</div>
 
 	<div class="z-10 flex h-[90vh] w-full flex-col items-center justify-center px-4 md:px-12">
-		<h1 class="text-7xl font-black text-outline md:text-9xl drop-shadow-2xl">{$page.status}</h1>
-		<p class="text-xl font-bold text-outline">{$page.error.message}</p>
+		<h1 class="text-7xl font-black text-outline md:text-9xl drop-shadow-2xl">404</h1>
+		<p class="text-xl font-bold text-outline">Not Found ☹️</p>
 	</div>
 </div>
