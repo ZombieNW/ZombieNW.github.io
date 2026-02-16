@@ -36,7 +36,7 @@
 			{#if link}
 				<a
 					href={link}
-					class="inline-block px-8 py-4 border-2 rounded-xl transition-all duration-300 hover:scale-[103%] w-1/2 text-center"
+					class="inline-block py-4 border-2 rounded-xl transition-all duration-300 hover:scale-[103%] w-1/2 text-center"
 					style="background-color: {colors.bg}; border-color: {colors.border};"
 				>
 					{downloadtext}
