@@ -1,5 +1,5 @@
 <div style="text-align: center;">
-    <img width="15%" src="/static/icon.png"></img>
+    <img width="15%" src="/static/logo.png"></img>
     <h1>ZombieNW's Website</h1>
     <h3>:3</h3>
 </div>
