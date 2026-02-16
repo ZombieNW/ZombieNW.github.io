@@ -2,8 +2,6 @@
 	import ProjectHero from '$lib/components/ProjectHero.svelte';
 	import Header from '$lib/components/Header.svelte';
 	import PlayIFrame from '$lib/components/PlayIFrame.svelte';
-
-	import Device from 'svelte-device-info';
 </script>
 
 <svelte:head>
@@ -27,31 +25,28 @@
 		>
 	</p>
 
-	{#if Device.isMobile}
-		<div class="text-center mt-6">
-			<p class="text-lg">Sorry, this game is not available on mobile.</p>
-		</div>
-	{:else}
-		<div class="mt-6 mb-2">
-			<a
-				href="https://poker.zombienw.com"
-				class="text-3xl font-bold text-gray-100 hover:text-blue-300 transition-colors duration-300"
-				>Play Online</a
-			>
-		</div>
-		<div class="w-1/2 mx-auto">
-			<PlayIFrame />
-			<h1 class="mt-4 text-2xl font-bold">Controls</h1>
-			<ul class="list-disc list-inside text-lg md:w-2/3 text-gray-300">
-				<li>1, 2, 3, 4, 5 - Hold Cards</li>
-				<li>Space - Play</li>
-				<li>Enter - Play (Alternate)</li>
-				<li>C - Add Credit</li>
-				<li>B - Change Bet</li>
-				<li>S - Select Game</li>
-			</ul>
-		</div>
-	{/if}
+	<div class="mt-6 mb-2">
+		<a
+			href="https://poker.zombienw.com"
+			class="text-3xl font-bold text-gray-100 hover:text-blue-300 transition-colors duration-300"
+			>Play Online</a
+		>
+	</div>
+	<div class="text-center mt-6 md:hidden block">
+		<p class="text-lg">Sorry, this game is not available on mobile.</p>
+	</div>
+	<div class="w-1/2 mx-auto md:block hidden">
+		<PlayIFrame />
+		<h1 class="mt-4 text-2xl font-bold">Controls</h1>
+		<ul class="list-disc list-inside text-lg md:w-2/3 text-gray-300">
+			<li>1, 2, 3, 4, 5 - Hold Cards</li>
+			<li>Space - Play</li>
+			<li>Enter - Play (Alternate)</li>
+			<li>C - Add Credit</li>
+			<li>B - Change Bet</li>
+			<li>S - Select Game</li>
+		</ul>
+	</div>
 
 	<h2 class="text-3xl font-bold mt-6 mb-2 text-gray-100">Credits</h2>
 	<p class="text-lg md:w-2/3 text-gray-300 flex flex-col">

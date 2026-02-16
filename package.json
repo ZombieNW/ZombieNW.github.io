@@ -26,7 +26,6 @@
 		"@fortawesome/free-brands-svg-icons": "^7.1.0",
 		"@fortawesome/free-solid-svg-icons": "^7.1.0",
 		"@sveltejs/adapter-static": "^3.0.10",
-		"svelte-device-info": "^1.0.6",
 		"svelte-fa": "^4.0.4"
 	}
 }
