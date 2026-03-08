@@ -80,9 +80,9 @@
 	<h1 class="text-6xl font-bold">Videos</h1>
 
 	<div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 m-8 mb-20">
+		<YouTubeVideo videoID="U0AWPiN0Sq8" />
 		<YouTubeVideo videoID="0DeXNBOuRDo" />
 		<YouTubeVideo videoID="dTg56eE8_TI" />
-		<YouTubeVideo videoID="t5uUji3DW04" />
 	</div>
 
 	<h1 class="text-6xl font-bold">About Me</h1>
