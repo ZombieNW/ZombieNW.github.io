@@ -29,14 +29,12 @@ body {
 		3px -3px 0 #000;
 }
 
-/* Inline code (default) */
 code {
 	@apply bg-gray-950 border-2 border-gray-800 rounded-lg px-1.5 py-0.5 font-mono text-sm;
 	box-decoration-break: clone;
 	-webkit-box-decoration-break: clone;
 }
 
-/* Multi-line code block */
 pre code {
 	@apply block p-4 overflow-x-auto;
 	box-decoration-break: slice;

@@ -32,7 +32,7 @@
 		<li>Place sign on a container block (chest, barrel, shulker, etc).</li>
 		<li>
 			Type out following format <br />
-			<pre class="w-1/4"><code class="text-center"
+			<pre class="md:w-1/4"><code class="text-center"
 					>[Shop] <br />X ItemName <br />for <br />Y ItemName</code
 				></pre>
 		</li>
