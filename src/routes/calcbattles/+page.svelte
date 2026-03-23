@@ -7,6 +7,8 @@
 
 <svelte:head>
 	<title>CalcBattles - ZombieNW</title>
+	<meta property="og:title" content="CalcBattles | ZombieNW" />
+	<meta property="og:description" content="A fast-paced Calculus battle RPG for Android." />
 </svelte:head>
 
 <Header />

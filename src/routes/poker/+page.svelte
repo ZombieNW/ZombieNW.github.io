@@ -6,6 +6,8 @@
 
 <svelte:head>
 	<title>Poker Machine - ZombieNW</title>
+	<meta property="og:title" content="Poker Machine | ZombieNW" />
+	<meta property="og:description" content="Video Poker game made in Godot." />
 </svelte:head>
 
 <Header />

@@ -6,6 +6,11 @@
 
 <svelte:head>
 	<title>ArchOpen - ZombieNW</title>
+	<meta property="og:title" content="ArchOpen | ZombieNW" />
+	<meta
+		property="og:description"
+		content="Windows Explorer file extension launcher for RetroArch."
+	/>
 </svelte:head>
 
 <Header />

@@ -7,6 +7,8 @@
 
 <svelte:head>
 	<title>SmplrChess - ZombieNW</title>
+	<meta property="og:title" content="SmplrChess | ZombieNW" />
+	<meta property="og:description" content="An incredibly simple chess app for Android." />
 </svelte:head>
 
 <Header />

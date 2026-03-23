@@ -6,6 +6,8 @@
 
 <svelte:head>
 	<title>Retro Tennis - ZombieNW</title>
+	<meta property="og:title" content="Retro Tennis | ZombieNW" />
+	<meta property="og:description" content="A series of homebrew arcade game clones for the Wii." />
 </svelte:head>
 
 <Header />

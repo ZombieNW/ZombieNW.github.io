@@ -7,6 +7,8 @@
 
 <svelte:head>
 	<title>Dolos Daily - ZombieNW</title>
+	<meta property="og:title" content="Dolos Daily | ZombieNW" />
+	<meta property="og:description" content="A proof-of-concept AI-Generated fake news website." />
 </svelte:head>
 
 <Header />

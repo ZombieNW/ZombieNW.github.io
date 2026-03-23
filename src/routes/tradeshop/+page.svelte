@@ -6,6 +6,11 @@
 
 <svelte:head>
 	<title>TradeShop - ZombieNW</title>
+	<meta property="og:title" content="Tradeshop | ZombieNW" />
+	<meta
+		property="og:description"
+		content="A simple, no-nonsense trade shop chest plugin for Minecraft Paper."
+	/>
 </svelte:head>
 
 <Header />

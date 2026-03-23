@@ -6,6 +6,11 @@
 
 <svelte:head>
 	<title>Embedabbl - ZombieNW</title>
+	<meta property="og:title" content="Embedabbl | ZombieNW" />
+	<meta
+		property="og:description"
+		content="An easier way to embed interactive media into your website."
+	/>
 </svelte:head>
 
 <Header />
