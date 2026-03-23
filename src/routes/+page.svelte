@@ -43,7 +43,13 @@
 			color="red"
 			img="./assets/calcbattles/logo.png"
 			link="/calcbattles"
-			year="2025"
+		/>
+		<ProjectCard
+			title="TradeShop"
+			description="A simple, no-nonsense item trade chest shop plugin for Minecraft."
+			color="blue"
+			img="./assets/tradeshop/icon.png"
+			link="/tradeshop"
 		/>
 		<ProjectCard
 			title="Dolos Daily"
@@ -51,7 +57,6 @@
 			color="white"
 			img="./assets/dolosdaily/logo.png"
 			link="/dolosdaily"
-			year="2024"
 		/>
 		<ProjectCard
 			title="SmplrChess"
@@ -59,7 +64,6 @@
 			color="purple"
 			img="./assets/smplrchess/logo.png"
 			link="/smplrchess"
-			year="2022"
 		/>
 		<ProjectCard
 			title="Retro Tennis"
@@ -67,7 +71,6 @@
 			color="green"
 			img="./assets/retro/logo.png"
 			link="/retro"
-			year="2021"
 		/>
 		<ProjectCard
 			title="More on Github"
