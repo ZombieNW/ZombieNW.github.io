@@ -13,7 +13,7 @@
 
 <Header />
 
-<ProjectHero img="./assets/calcbattles/logo.png" color="red" />
+<ProjectHero img="./assets/calcbattles/logo.png" color="red" title="CalcBattles" />
 
 <div class="mx-4 md:mx-12 overflow-y-hidden">
 	<h1 class="text-6xl font-bold">CalcBattles</h1>
