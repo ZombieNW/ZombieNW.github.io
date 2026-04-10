@@ -38,13 +38,20 @@
 		<li>
 			Type out following format <br />
 			<pre class="md:w-1/4"><code class="text-center"
-					>[Shop] <br />X ItemName <br />for <br />Y ItemName</code
+					>[Shop] <br />X ItemName<br />for <br />Y ItemName</code
 				></pre>
 		</li>
 		<li>
 			Note! ItemName must be a valid <a
 				href="https://jd.papermc.io/paper/1.21.1/org/bukkit/Material.html">Bukkit Material.</a
 			> Case/Space doesn't matter.
+		</li>
+		<li>
+			Alternatively! <br />
+			<pre class="md:w-1/4"><code class="text-center"
+					>[Shop] <br />X [Hand]<br />for <br />Y [Hand]</code
+				></pre>
+			Use [Hand] as a placeholder; then right click the sign with the items.
 		</li>
 		<li>If successful, the sign will reformat itself.</li>
 		<li>Right click the sign to trade !</li>

@@ -13,7 +13,7 @@
 
 <Header />
 
-<ProjectHero img="./assets/calcbattles/logo.png" color="red" />
+<ProjectHero img="./assets/calcbattles/logo.png" color="red" title="CalcBattles" />
 
 <div class="mx-4 md:mx-12 overflow-y-hidden">
 	<h1 class="text-6xl font-bold">CalcBattles</h1>
@@ -23,6 +23,13 @@
 		CalcBattles is a fast-paced battle RPG for learning Calculus. Players fight monsters through
 		levels by answering flash cards. The game was made for a regional app development competition.
 	</p>
+
+	<h2 class="text-3xl font-bold mt-6 mb-2 text-gray-100">Screenshots</h2>
+	<div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 m-8 mb-20">
+		<img src="./assets/calcbattles/1.webp" alt="CalcBattles' first screenshot" class="mx-auto" />
+		<img src="./assets/calcbattles/2.webp" alt="CalcBattles' second screenshot" class="mx-auto" />
+		<img src="./assets/calcbattles/3.webp" alt="CalcBattles' third screenshot" class="mx-auto" />
+	</div>
 
 	<h2 class="text-3xl font-bold mt-6 mb-2 text-gray-100">Download</h2>
 	<div class="md:w-2/3 mx-auto">
