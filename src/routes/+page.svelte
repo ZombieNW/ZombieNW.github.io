@@ -14,8 +14,8 @@
 <IconLinks />
 
 <div class="mx-4 md:mx-12 overflow-y-hidden">
-	<h1 class="text-6xl font-bold">Projects</h1>
-	<div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 m-8 mb-20">
+	<a href="/projects" class="text-6xl font-bold">Projects</a>
+	<div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 m-8">
 		<ProjectCard
 			title="ArchOpen"
 			description="File association manager for RetroArch on Windows. Open games simpler and faster."
@@ -47,40 +47,23 @@
 		<ProjectCard
 			title="TradeShop"
 			description="A simple, no-nonsense item trade chest shop plugin for Minecraft."
-			color="blue"
+			color="amber"
 			img="./assets/tradeshop/icon.png"
 			link="/tradeshop"
 		/>
-		<ProjectCard
-			title="Dolos Daily"
-			description="Proof-of-Concept AI generated fake news website."
-			color="white"
-			img="./assets/dolosdaily/logo.png"
-			link="/dolosdaily"
-		/>
-		<ProjectCard
-			title="SmplrChess"
-			description="A simple chess app for Android."
-			color="purple"
-			img="./assets/smplrchess/logo.png"
-			link="/smplrchess"
-		/>
-		<ProjectCard
-			title="Retro Tennis"
-			description="Wii Homebrew Games made with DevKitPro and GRRLIB."
-			color="green"
-			img="./assets/retro/logo.png"
-			link="/retro"
-		/>
-		<ProjectCard
-			title="More on Github"
-			description="Find older or unfinished projects on my GitHub profile."
-			color="black"
-			img="https://img.icons8.com/ios11/512/FFFFFF/github.png"
-			link="https://github.com/ZombieNW"
-		/>
 	</div>
-	<h1 class="text-6xl font-bold">Videos</h1>
+	<a
+		href="/projects"
+		class="flex flex-col border-2 p-4 rounded-xl hover:scale-[103%] transition-all
+	duration-300 overflow-hidden bg-gray-800 border-gray-700 m-8 mb-20"
+	>
+		<div class="flex">
+			<h1 class="text-4xl font-bold">More Projects</h1>
+		</div>
+		<p class="text-gray-300">See a list of all my projects</p>
+	</a>
+
+	<a href="https://youtube.com/ZombieNW" class="text-6xl font-bold">Videos</a>
 
 	<div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 m-8 mb-20">
 		<YouTubeVideo videoID="U0AWPiN0Sq8" />
