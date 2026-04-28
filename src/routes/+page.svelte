@@ -67,7 +67,7 @@
 		<div class="flex">
 			<h1 class="text-4xl font-bold">More Projects</h1>
 		</div>
-		<p class="text-gray-300">See a list of all my projects</p>
+		<p class="text-gray-300">See a more complete list of things I've made.</p>
 	</a>
 
 	<a href="https://youtube.com/ZombieNW" class="text-6xl font-bold">Videos</a>
