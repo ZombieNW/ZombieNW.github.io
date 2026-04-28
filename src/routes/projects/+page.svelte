@@ -3,6 +3,12 @@
 	import Header from '$lib/components/Header.svelte';
 </script>
 
+<svelte:head>
+	<title>Projects - ZombieNW</title>
+	<meta property="og:title" content="Projects | ZombieNW" />
+	<meta property="og:description" content="A more complete list of things I've made." />
+</svelte:head>
+
 <Header />
 <div class="mx-4 md:mx-12 overflow-y-hidden mt-20">
 	<h1 class="text-6xl font-bold">Projects</h1>
