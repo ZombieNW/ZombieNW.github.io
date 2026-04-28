@@ -65,6 +65,13 @@
 			link="/retro"
 		/>
 		<ProjectCard
+			title="Chipper-M8"
+			description="A user-friendly Chip-8 emulator."
+			color="white"
+			img="./assets/chipperm8/icon.png"
+			link="/chipperm8"
+		/>
+		<ProjectCard
 			title="More on Github"
 			description="Find older or unfinished projects on my GitHub profile."
 			color="black"

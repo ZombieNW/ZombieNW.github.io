@@ -51,6 +51,13 @@
 			img="./assets/tradeshop/icon.png"
 			link="/tradeshop"
 		/>
+		<ProjectCard
+			title="Chipper-M8"
+			description="A user-friendly Chip-8 emulator."
+			color="white"
+			img="./assets/chipperm8/icon.png"
+			link="/chipperm8"
+		/>
 	</div>
 	<a
 		href="/projects"
