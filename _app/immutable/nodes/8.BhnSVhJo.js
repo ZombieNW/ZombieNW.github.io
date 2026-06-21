@@ -1,0 +1,1 @@
+import{a,f as o}from"../chunks/BXHxU9Qf.js";import"../chunks/DAfskCWt.js";var m=o('<head><meta http-equiv="refresh" content="0;URL=https://embedabbl.zombienw.com/"/></head>');function n(e){var t=m();a(e,t)}export{n as component};
