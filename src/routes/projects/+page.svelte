@@ -33,7 +33,7 @@
 			description="Quickly embed roms and other files into your website."
 			color="purple"
 			img="./assets/embedabbl/icon.png"
-			link="/embedabbl"
+			link="https://embedabbl.zombienw.com/"
 		/>
 		<ProjectCard
 			title="CalcBattles"
@@ -76,6 +76,13 @@
 			color="white"
 			img="./assets/chipperm8/icon.png"
 			link="/chipperm8"
+		/>
+		<ProjectCard
+			title="OnyxLib"
+			description="PaperMC custom item creation library."
+			color="pink"
+			img="./assets/onyxlib/icon.png"
+			link="https://onyx.zombienw.com/"
 		/>
 		<ProjectCard
 			title="More on Github"
