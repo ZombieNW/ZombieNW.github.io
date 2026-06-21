@@ -31,11 +31,18 @@
 			link="/poker"
 		/>
 		<ProjectCard
+			title="TradeShop"
+			description="A simple, no-nonsense item trade chest shop plugin for Minecraft."
+			color="amber"
+			img="./assets/tradeshop/icon.png"
+			link="/tradeshop"
+		/>
+		<ProjectCard
 			title="Embedabbl"
 			description="Quickly embed roms and other files into your website."
 			color="purple"
 			img="./assets/embedabbl/icon.png"
-			link="/embedabbl"
+			link="https://embedabbl.zombienw.com/"
 		/>
 		<ProjectCard
 			title="CalcBattles"
@@ -45,18 +52,11 @@
 			link="/calcbattles"
 		/>
 		<ProjectCard
-			title="TradeShop"
-			description="A simple, no-nonsense item trade chest shop plugin for Minecraft."
-			color="amber"
-			img="./assets/tradeshop/icon.png"
-			link="/tradeshop"
-		/>
-		<ProjectCard
-			title="Chipper-M8"
-			description="A user-friendly Chip-8 emulator."
-			color="white"
-			img="./assets/chipperm8/icon.png"
-			link="/chipperm8"
+			title="OnyxLib"
+			description="PaperMC custom item creation library."
+			color="pink"
+			img="./assets/onyxlib/icon.png"
+			link="https://onyx.zombienw.com/"
 		/>
 	</div>
 	<a
