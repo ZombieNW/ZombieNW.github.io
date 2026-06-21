@@ -13,7 +13,13 @@
 		amber: { bg: 'rgb(245 158 11 / 0.2)', border: 'rgb(245 158 11 / 0.3)' },
 		white: { bg: 'rgb(255 255 255 / 0.2)', border: 'rgb(255 255 255 / 0.3)' },
 		black: { bg: 'rgb(0 0 0 / 0.2)', border: 'rgb(128 128 128 / 0.3)' },
-		purple: { bg: 'rgb(168 85 247 / 0.2)', border: 'rgb(168 85 247 / 0.3)' }
+		purple: { bg: 'rgb(168 85 247 / 0.2)', border: 'rgb(168 85 247 / 0.3)' },
+		pink: { bg: 'rgb(236 72 153 / 0.2)', border: 'rgb(236 72 153 / 0.3)' },
+		indigo: { bg: 'rgb(99 102 241 / 0.2)', border: 'rgb(99 102 241 / 0.3)' },
+		teal: { bg: 'rgb(20 184 166 / 0.2)', border: 'rgb(20 184 166 / 0.3)' },
+		cyan: { bg: 'rgb(6 182 212 / 0.2)', border: 'rgb(6 182 212 / 0.3)' },
+		orange: { bg: 'rgb(249 115 22 / 0.2)', border: 'rgb(249 115 22 / 0.3)' },
+		gray: { bg: 'rgb(107 114 128 / 0.2)', border: 'rgb(107 114 128 / 0.3)' }
 	};
 </script>
 
