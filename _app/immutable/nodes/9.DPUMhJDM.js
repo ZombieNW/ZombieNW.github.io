@@ -1,0 +1,1 @@
+import{a as e,f as a}from"../chunks/BXHxU9Qf.js";import"../chunks/DAfskCWt.js";var r=a('<head><meta http-equiv="refresh" content="0;URL=https://onyx.zombienw.com/"/></head>');function p(o){var t=r();e(o,t)}export{p as component};
